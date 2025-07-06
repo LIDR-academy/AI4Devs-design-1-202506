@@ -567,6 +567,30 @@ Rel(data, tdstore, "Accede")
 
 ---
 
+## 8. User Journey
+
+La sección "User Journey" describe el recorrido típico de un usuario clave (por ejemplo, un recruiter) a través del sistema LTI ATS, desde la creación de una vacante hasta la contratación y cierre del proceso. Este diagrama ayuda a visualizar los pasos, actores y emociones involucradas en la experiencia de usuario, facilitando la identificación de oportunidades de mejora y puntos críticos en el flujo.
+
+**Diagrama (Mermaid Journey):**
+```mermaid
+journey
+    title User Journey - Proceso de Reclutamiento LTI ATS
+    section Creación de Vacante
+      Crear Vacante: 5: Recruiter
+      Publicar Vacante: 4: Recruiter
+    section Postulación y Screening
+      Aplicar a Vacante: 5: Candidate
+      Screening IA: 4: Recruiter, Candidate
+    section Entrevista y Decisión
+      Entrevista: 3: Recruiter, Candidate
+      Feedback y Decisión: 4: Recruiter
+      Oferta y Cierre: 5: Recruiter, Candidate
+```
+
+![User Journey](../LTI-AMP/diagrams/user-journey.png)
+
+---
+
 ## Conclusión
 
 LTI representa el futuro del ATS con una arquitectura moderna, IA integrada y enfoque en colaboración. El sistema está diseñado para escalar desde startups hasta empresas globales, proporcionando valor diferencial en cada etapa del proceso de reclutamiento.

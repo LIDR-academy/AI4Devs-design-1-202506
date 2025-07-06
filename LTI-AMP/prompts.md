@@ -217,3 +217,27 @@ cambia el codigo de todos los diagramas de la seccion de casos de usos, siguiend
 debajo de cada codigo de diagrama (incluye todas las secciones del documento) agrega la imagen correspondiente, obtenida de @/diagrams he dejado nombres faciles de relacionar
 
 --- 
+
+## Prompt 15
+
+@LTI-AMP.md agrega una nueva seccion llamada "user journey" agrega una descripcion de la seccion y agrega un diagrama segun el siguiente ejemplo en codigo mermaid:
+
+journey
+    title My working day
+    section Go to work
+      Make tea: 5: Me
+      Go upstairs: 3: Me
+      Do work: 1: Me, Cat
+    section Go home
+      Go downstairs: 5: Me
+      Sit down: 3: Me
+
+el diagrama debe seguir el ejemplo pero debes entregarlo en codigo plantuml. de bajo del codigo deja espacio para linkear la imagen correspondiente
+
+--- 
+
+## Prompt 16
+
+cambia el diagrama de user journey por mermaid@LTI-AMP.md
+
+--- 

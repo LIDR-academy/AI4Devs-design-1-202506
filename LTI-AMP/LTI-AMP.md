@@ -1,11 +1,11 @@
-# LTI - Applicant Tracking System del Futuro
-## Diseño de Sistema Completo
+# LTI - Applicant Tracking System del Futuro 🚀
+## Diseño de Sistema Completo 🛠️
 
 ![LTI ATS System](ats.png)
 
 ---
 
-## 1. Descripción del Software LTI
+## 1. Descripción del Software LTI 💡
 
 ### Visión
 LTI (Leading Talent Intelligence) es el ATS del futuro que revoluciona el reclutamiento mediante inteligencia artificial, automatización inteligente y colaboración en tiempo real.
@@ -25,7 +25,7 @@ LTI (Leading Talent Intelligence) es el ATS del futuro que revoluciona el reclut
 
 ---
 
-## 2. Funciones Principales del Sistema
+## 2. Funciones Principales del Sistema ⚙️
 
 ### Core Functions
 1. **Gestión de Vacantes**
@@ -53,7 +53,7 @@ LTI (Leading Talent Intelligence) es el ATS del futuro que revoluciona el reclut
    - KPIs automáticos
    - Insights de mejora continua
 
-### AI-Powered Features
+### AI-Powered Features 🤖
 - **Smart Matching**: IA que aprende de decisiones previas
 - **Bias Detection**: Identificación automática de sesgos
 - **Predictive Hiring**: Anticipación de necesidades
@@ -61,7 +61,7 @@ LTI (Leading Talent Intelligence) es el ATS del futuro que revoluciona el reclut
 
 ---
 
-## 3. Lean Canvas (Visual)
+## 3. Lean Canvas (Visual) 📝
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -110,7 +110,7 @@ LTI (Leading Talent Intelligence) es el ATS del futuro que revoluciona el reclut
 
 ---
 
-## 4. Casos de Uso Principales
+## 4. Casos de Uso Principales 🧑‍💼
 
 ### Caso de Uso 1: Creación y Publicación Inteligente de Vacante
 
@@ -124,7 +124,7 @@ LTI (Leading Talent Intelligence) es el ATS del futuro que revoluciona el reclut
 4. Sistema distribuye automáticamente en canales relevantes
 5. Tracking automático de performance por canal
 
-**Diagrama (PlantUML Use Case):**
+**Diagrama (PlantUML Use Case) 🖼️:**
 ```plantuml
 @startuml
 left to right direction
@@ -163,7 +163,7 @@ UC4 --> UC5 : <<include>>
 4. Recruiter recibe lista priorizada
 5. Sistema programa entrevistas automáticamente
 
-**Diagrama (PlantUML Use Case):**
+**Diagrama (PlantUML Use Case) 🖼️:**
 ```plantuml
 @startuml
 left to right direction
@@ -205,7 +205,7 @@ AI --> UC6
 4. IA sugiere decisión basada en criterios
 5. Decisión final se registra y notifica
 
-**Diagrama (PlantUML Use Case):**
+**Diagrama (PlantUML Use Case) 🖼️:**
 ```plantuml
 @startuml
 left to right direction
@@ -235,7 +235,7 @@ UC4 --> UC5 : <<include>>
 
 ---
 
-## 5. Modelo de Datos
+## 5. Modelo de Datos 🗃️
 
 ### Entidades Principales
 
@@ -333,7 +333,7 @@ UC4 --> UC5 : <<include>>
 - **last_trained** (Timestamp)
 - **is_active** (Boolean)
 
-### Relaciones (PlantUML ERD)
+### Relaciones (PlantUML ERD) 🖼️
 
 ```plantuml
 @startuml
@@ -435,9 +435,9 @@ AI_Model ||--o{ Application : predicts
 
 ---
 
-## 6. Diseño del Sistema a Alto Nivel
+## 6. Diseño del Sistema a Alto Nivel 🏗️
 
-### Arquitectura General (PlantUML)
+### Arquitectura General (PlantUML) 🖼️
 
 ```plantuml
 @startuml
@@ -519,7 +519,7 @@ S3 ..> JS : "archivos vacantes"
 
 ---
 
-## 7. Diagrama C4 - Componente AI Service (PlantUML)
+## 7. Diagrama C4 - Componente AI Service (PlantUML) 🖼️
 
 ```plantuml
 @startuml
@@ -567,11 +567,11 @@ Rel(data, tdstore, "Accede")
 
 ---
 
-## 8. User Journey
+## 8. User Journey 🚶
 
 La sección "User Journey" describe el recorrido típico de un usuario clave (por ejemplo, un recruiter) a través del sistema LTI ATS, desde la creación de una vacante hasta la contratación y cierre del proceso. Este diagrama ayuda a visualizar los pasos, actores y emociones involucradas en la experiencia de usuario, facilitando la identificación de oportunidades de mejora y puntos críticos en el flujo.
 
-**Diagrama (Mermaid Journey):**
+**Diagrama (Mermaid Journey) 🖼️:**
 ```mermaid
 journey
     title User Journey - Proceso de Reclutamiento LTI ATS
@@ -591,11 +591,11 @@ journey
 
 ---
 
-## Conclusión
+## Conclusión 🎯
 
 LTI representa el futuro del ATS con una arquitectura moderna, IA integrada y enfoque en colaboración. El sistema está diseñado para escalar desde startups hasta empresas globales, proporcionando valor diferencial en cada etapa del proceso de reclutamiento.
 
-### Próximos Pasos
+### Próximos Pasos 🏁
 
 1. **MVP Development**: Implementar casos de uso core
 2. **AI Model Training**: Desarrollar modelos iniciales
@@ -605,4 +605,4 @@ LTI representa el futuro del ATS con una arquitectura moderna, IA integrada y en
 
 ---
 
-*Documento preparado para presentación al equipo de desarrollo*
+*Documento preparado para presentación al equipo de desarrollo* 📑

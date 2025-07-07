@@ -1,0 +1,3467 @@
+{
+  "requesterUsername": "WillianCollaguazo",
+  "requesterAvatarIconUri": {
+    "$mid": 1,
+    "path": "/u/84749859",
+    "scheme": "https",
+    "authority": "avatars.githubusercontent.com",
+    "query": "v=4"
+  },
+  "responderUsername": "GitHub Copilot",
+  "responderAvatarIconUri": {
+    "id": "copilot"
+  },
+  "initialLocation": "panel",
+  "requests": [
+    {
+      "requestId": "request_bfa8e398-aefc-4d19-bb9d-886a77fb2ce9",
+      "message": {
+        "text": "#new Quiero que seas un product manager donde se va a contruir un sistema ATS (Applicant-Tracking System).\r\n\r\nSe necesita diseñar y documentar un sistema de software siguiendo las fases de investigación y análisis, casos de uso, modelado de datos, y diseño de alto nivel.\r\n\r\nSe debe definir funcionalidades claves que harán brillar a LTI por encima de los competidores: aumentar la eficiencia para los departamentos de HR, mejorar la colaboración en tiempo real entre reclutadores y managers, automatizaciones.\r\n\r\nInvestiga cuáles pueden ser las claves del éxito y aplica a los puntos que se necesita a continuación:\r\n\r\n1. Descripción breve del software LTI, valor añadido y ventajas competitivas. Explicación de las funciones principales. Añadir un diagrama Lean Canvas para entender el modelo de negocio\r\n2. Descripción de los 3 casos de uso principales, con el diagrama asociado a cada uno\r\n3. Modelo de datos que cubra entidades, atributos (nombre y tipo) y relaciones\r\n4. Diseño del sistema a alto nivel, tanto explicado como diagrama adjunto\r\n5. Diagrama C4 que llegue en profundidad a uno de los componentes del sistema, el que prefieras\r\n\r\nToda la investigación y documentación incluyela en el archiv LTI-WC.md y tambien todos promts ocupados en el archivo prompts.md\r\n\r\nSi requieres más información me preguntas.",
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 4
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 5
+            },
+            "id": "toolset:GitHub.copilot-chat/new",
+            "name": "new",
+            "icon": {
+              "id": "new-folder"
+            },
+            "tools": [
+              {
+                "kind": "tool",
+                "id": "copilot_createNewWorkspace",
+                "name": "newWorkspace",
+                "range": {
+                  "start": 0,
+                  "endExclusive": 4
+                },
+                "icon": {
+                  "id": "new-folder"
+                },
+                "fullName": "Crear nueva área de trabajo"
+              },
+              {
+                "kind": "tool",
+                "id": "copilot_runVscodeCommand",
+                "name": "runVscodeCommand",
+                "range": {
+                  "start": 0,
+                  "endExclusive": 4
+                },
+                "fullName": "Run VS Code Command"
+              },
+              {
+                "kind": "tool",
+                "id": "copilot_getProjectSetupInfo",
+                "name": "getProjectSetupInfo",
+                "range": {
+                  "start": 0,
+                  "endExclusive": 4
+                },
+                "fullName": "Obtener información de configuración del proyecto"
+              },
+              {
+                "kind": "tool",
+                "id": "copilot_installExtension",
+                "name": "installExtension",
+                "range": {
+                  "start": 0,
+                  "endExclusive": 4
+                },
+                "fullName": "Install Extension in VS Code"
+              }
+            ],
+            "kind": "toolset"
+          },
+          {
+            "range": {
+              "start": 4,
+              "endExclusive": 1321
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 5,
+              "endLineNumber": 17,
+              "endColumn": 43
+            },
+            "text": " Quiero que seas un product manager donde se va a contruir un sistema ATS (Applicant-Tracking System).\r\n\r\nSe necesita diseñar y documentar un sistema de software siguiendo las fases de investigación y análisis, casos de uso, modelado de datos, y diseño de alto nivel.\r\n\r\nSe debe definir funcionalidades claves que harán brillar a LTI por encima de los competidores: aumentar la eficiencia para los departamentos de HR, mejorar la colaboración en tiempo real entre reclutadores y managers, automatizaciones.\r\n\r\nInvestiga cuáles pueden ser las claves del éxito y aplica a los puntos que se necesita a continuación:\r\n\r\n1. Descripción breve del software LTI, valor añadido y ventajas competitivas. Explicación de las funciones principales. Añadir un diagrama Lean Canvas para entender el modelo de negocio\r\n2. Descripción de los 3 casos de uso principales, con el diagrama asociado a cada uno\r\n3. Modelo de datos que cubra entidades, atributos (nombre y tipo) y relaciones\r\n4. Diseño del sistema a alto nivel, tanto explicado como diagrama adjunto\r\n5. Diagrama C4 que llegue en profundidad a uno de los componentes del sistema, el que prefieras\r\n\r\nToda la investigación y documentación incluyela en el archiv LTI-WC.md y tambien todos promts ocupados en el archivo prompts.md\r\n\r\nSi requieres más información me preguntas.",
+            "kind": "text"
+          }
+        ]
+      },
+      "variableData": {
+        "variables": [
+          {
+            "kind": "toolset",
+            "id": "toolset:GitHub.copilot-chat/new",
+            "name": "new",
+            "range": {
+              "start": 0,
+              "endExclusive": 4
+            },
+            "icon": {
+              "id": "new-folder"
+            },
+            "value": [
+              {
+                "kind": "tool",
+                "id": "copilot_createNewWorkspace",
+                "name": "newWorkspace",
+                "range": {
+                  "start": 0,
+                  "endExclusive": 4
+                },
+                "icon": {
+                  "id": "new-folder"
+                },
+                "fullName": "Crear nueva área de trabajo"
+              },
+              {
+                "kind": "tool",
+                "id": "copilot_runVscodeCommand",
+                "name": "runVscodeCommand",
+                "range": {
+                  "start": 0,
+                  "endExclusive": 4
+                },
+                "fullName": "Run VS Code Command"
+              },
+              {
+                "kind": "tool",
+                "id": "copilot_getProjectSetupInfo",
+                "name": "getProjectSetupInfo",
+                "range": {
+                  "start": 0,
+                  "endExclusive": 4
+                },
+                "fullName": "Obtener información de configuración del proyecto"
+              },
+              {
+                "kind": "tool",
+                "id": "copilot_installExtension",
+                "name": "installExtension",
+                "range": {
+                  "start": 0,
+                  "endExclusive": 4
+                },
+                "fullName": "Install Extension in VS Code"
+              }
+            ]
+          },
+          {
+            "kind": "file",
+            "id": "vscode.implicit.viewport",
+            "name": "file:prompts.md",
+            "value": {
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\OneD\\BI\\OneDrive - Farmaenlace\\Datos Portatil\\Documentos\\V220\\Curso\\2025\\Lidr\\AI4Devs\\Ejercicios\\4\\AI4Devs-design-1-202506\\LTI-WC\\prompts.md",
+                "_sep": 1,
+                "external": "file:///c%3A/OneD/BI/OneDrive%20-%20Farmaenlace/Datos%20Portatil/Documentos/V220/Curso/2025/Lidr/AI4Devs/Ejercicios/4/AI4Devs-design-1-202506/LTI-WC/prompts.md",
+                "path": "/c:/OneD/BI/OneDrive - Farmaenlace/Datos Portatil/Documentos/V220/Curso/2025/Lidr/AI4Devs/Ejercicios/4/AI4Devs-design-1-202506/LTI-WC/prompts.md",
+                "scheme": "file"
+              },
+              "range": {
+                "startLineNumber": 1,
+                "startColumn": 1,
+                "endLineNumber": 1,
+                "endColumn": 1
+              }
+            },
+            "modelDescription": "User's current visible code"
+          }
+        ]
+      },
+      "response": [
+        {
+          "value": "¡Perfecto! Para abordar tu solicitud como Product Manager y documentar el sistema ATS (Applicant-Tracking System) LTI, seguiré estos pasos:\n\n1. Investigaré las claves de éxito de los sistemas ATS modernos y cómo LTI puede destacar.\n2. Redactaré la documentación en el archivo `LTI-WC.md`, cubriendo:\n   - Descripción, valor añadido, ventajas competitivas y funciones principales.\n   - Lean Canvas del modelo de negocio.\n   - Tres casos de uso principales con sus diagramas.\n   - Modelo de datos con entidades, atributos y relaciones.\n   - Diseño de alto nivel explicado y con diagrama.\n   - Diagrama C4 detallado de un componente clave.\n3. Guardaré todos los prompts utilizados en el archivo `prompts.md`.\n\nComenzaré por investigar las claves de éxito y mejores prácticas en sistemas ATS para asegurar que LTI tenga ventajas competitivas claras. Luego, procederé a documentar cada sección según lo solicitado. \n\n¿Hay algún sector o tipo de empresa objetivo para LTI, o lo planteo como un ATS generalista? ¿Prefieres que los diagramas sean en texto (Markdown/PlantUML) o gráficos (por ejemplo, enlaces a herramientas externas)?",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/OneD/BI/OneDrive - Farmaenlace/Datos Portatil/Documentos/V220/Curso/2025/Lidr/AI4Devs/Ejercicios/4/AI4Devs-design-1-202506/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "responseId": "response_08c58af6-1f15-4e5d-aaa5-9f8fd7add7b6",
+      "result": {
+        "timings": {
+          "firstProgress": 3561,
+          "totalElapsed": 6345
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "renderedUserMessage": [
+            {
+              "type": 1,
+              "text": "<attachments>\n<attachment id=\"file:prompts.md\">\nUser's current visible code:\nExcerpt from prompts.md, lines 1 to 1:\n```markdown\n\n```\n</attachment>\n\n</attachments>\n<toolReferences>\nThe user attached the following tools to this message. The userRequest may refer to them using the tool name with \"#\". These tools are likely relevant to the user's query:\n- create_new_workspace\n- run_vscode_command\n- get_project_setup_info\n- install_extension\n</toolReferences>\n<context>\nThe current date is 7 de julio de 2025.\n</context>\n<editorContext>\nThe user's current file is c:\\OneD\\BI\\OneDrive - Farmaenlace\\Datos Portatil\\Documentos\\V220\\Curso\\2025\\Lidr\\AI4Devs\\Ejercicios\\4\\AI4Devs-design-1-202506\\LTI-WC\\prompts.md. \n</editorContext>\n<reminder>\nYou are an agent - you must keep going until the user's query is completely resolved, before ending your turn and yielding back to the user. ONLY terminate your turn when you are sure that the problem is solved, or you absolutely cannot continue.\nYou take action when possible- the user is expecting YOU to take action and go to work for them. Don't ask unnecessary questions about the details if you can simply DO something useful instead.\nWhen using the insert_edit_into_file tool, avoid repeating existing code, instead use a line comment with \\`...existing code...\\` to represent regions of unchanged code.\n</reminder>\n<userRequest>\n#new Quiero que seas un product manager donde se va a contruir un sistema ATS (Applicant-Tracking System).\r\n\r\nSe necesita diseñar y documentar un sistema de software siguiendo las fases de investigación y análisis, casos de uso, modelado de datos, y diseño de alto nivel.\r\n\r\nSe debe definir funcionalidades claves que harán brillar a LTI por encima de los competidores: aumentar la eficiencia para los departamentos de HR, mejorar la colaboración en tiempo real entre reclutadores y managers, automatizaciones.\r\n\r\nInvestiga cuáles pueden ser las claves del éxito y aplica a los puntos que se necesita a continuación:\r\n\r\n1. Descripción breve del software LTI, valor añadido y ventajas competitivas. Explicación de las funciones principales. Añadir un diagrama Lean Canvas para entender el modelo de negocio\r\n2. Descripción de los 3 casos de uso principales, con el diagrama asociado a cada uno\r\n3. Modelo de datos que cubra entidades, atributos (nombre y tipo) y relaciones\r\n4. Diseño del sistema a alto nivel, tanto explicado como diagrama adjunto\r\n5. Diagrama C4 que llegue en profundidad a uno de los componentes del sistema, el que prefieras\r\n\r\nToda la investigación y documentación incluyela en el archiv LTI-WC.md y tambien todos promts ocupados en el archivo prompts.md\r\n\r\nSi requieres más información me preguntas. (See <attachments> above for file contents. You may not need to search or read the file again.)\n</userRequest>\n"
+            },
+            {
+              "type": 3,
+              "cacheType": "ephemeral"
+            }
+          ],
+          "renderedGlobalContext": [
+            {
+              "type": 1,
+              "text": "<environment_info>\nThe user's current OS is: Windows\nThe user's default shell is: \"powershell.exe\". When you generate terminal commands, please generate them correctly for this shell.\n</environment_info>\n<workspace_info>\nI am working in a workspace with the following folders:\n- c:\\OneD\\BI\\OneDrive - Farmaenlace\\Datos Portatil\\Documentos\\V220\\Curso\\2025\\Lidr\\AI4Devs\\Ejercicios\\4\\AI4Devs-design-1-202506 \nI am working in a workspace that has the following structure:\n```\nReadMe.md\nLTI-WC/\n\tLTI-WC.md\n\tprompts.md\n```\nThis is the state of the context at this point in the conversation. The view of the workspace structure may be truncated. You can use tools to collect more context if needed.\n</workspace_info>\n"
+            },
+            {
+              "type": 3,
+              "cacheType": "ephemeral"
+            }
+          ],
+          "modelMessageId": "2731deb9-f808-49bf-ad7e-e861b3621aef",
+          "responseId": "6510242f-2fbb-40ca-be7f-dd14a4fa93a5",
+          "sessionId": "66a37dc5-d80c-403e-a1bd-55b88d30097d",
+          "agentId": "github.copilot.editsAgent"
+        }
+      },
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.editsAgent",
+        "description": "Edición de archivos en el área de trabajo en modo agente",
+        "when": "config.chat.agent.enabled && !chatAgentModeDisallowed",
+        "metadata": {
+          "themeIcon": {
+            "id": "tools"
+          },
+          "hasFollowups": false,
+          "supportIssueReporting": false
+        },
+        "name": "agent",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "agent"
+        ],
+        "slashCommands": [
+          {
+            "name": "list"
+          }
+        ],
+        "disambiguation": []
+      },
+      "contentReferences": [],
+      "codeCitations": [],
+      "timestamp": 1751897197552
+    },
+    {
+      "requestId": "request_1e6658f7-d2f2-4ced-82e1-2b1d4440a087",
+      "message": {
+        "text": "planteale como generalista  y los diagramas de tpo PlantUML",
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 59
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 60
+            },
+            "text": "planteale como generalista  y los diagramas de tpo PlantUML",
+            "kind": "text"
+          }
+        ]
+      },
+      "variableData": {
+        "variables": [
+          {
+            "kind": "file",
+            "id": "vscode.implicit.viewport",
+            "name": "file:prompts.md",
+            "value": {
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\OneD\\BI\\OneDrive - Farmaenlace\\Datos Portatil\\Documentos\\V220\\Curso\\2025\\Lidr\\AI4Devs\\Ejercicios\\4\\AI4Devs-design-1-202506\\LTI-WC\\prompts.md",
+                "_sep": 1,
+                "external": "file:///c%3A/OneD/BI/OneDrive%20-%20Farmaenlace/Datos%20Portatil/Documentos/V220/Curso/2025/Lidr/AI4Devs/Ejercicios/4/AI4Devs-design-1-202506/LTI-WC/prompts.md",
+                "path": "/c:/OneD/BI/OneDrive - Farmaenlace/Datos Portatil/Documentos/V220/Curso/2025/Lidr/AI4Devs/Ejercicios/4/AI4Devs-design-1-202506/LTI-WC/prompts.md",
+                "scheme": "file"
+              },
+              "range": {
+                "startLineNumber": 1,
+                "startColumn": 1,
+                "endLineNumber": 1,
+                "endColumn": 1
+              }
+            },
+            "modelDescription": "User's current visible code"
+          }
+        ]
+      },
+      "response": [
+        {
+          "value": "Gracias por la aclaración. Procederé a:\n\n- Plantear LTI como un ATS generalista.\n- Incluir los diagramas en formato PlantUML (en bloques de código para fácil visualización y edición).\n- Documentar todo en `LTI-WC.md`.\n- Registrar los prompts utilizados en `prompts.md`.\n\nComenzaré con la investigación de claves de éxito y ventajas competitivas para sistemas ATS, y luego avanzaré con la documentación estructurada según tus puntos. ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/OneD/BI/OneDrive - Farmaenlace/Datos Portatil/Documentos/V220/Curso/2025/Lidr/AI4Devs/Ejercicios/4/AI4Devs-design-1-202506/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "prepareToolInvocation",
+          "toolName": "copilot_insertEdit"
+        },
+        {
+          "kind": "toolInvocationSerialized",
+          "presentation": "hidden",
+          "invocationMessage": "Usando \"Editar archivo\"",
+          "isConfirmed": true,
+          "isComplete": true,
+          "toolCallId": "68b51db5-1421-486e-be26-05f991b10237",
+          "toolId": "copilot_insertEdit"
+        },
+        {
+          "kind": "toolInvocationSerialized",
+          "presentation": "hidden",
+          "invocationMessage": "Usando \"\"",
+          "isConfirmed": true,
+          "isComplete": true,
+          "toolCallId": "447e6615-c3b3-4fc1-8408-d61802fc150e",
+          "toolId": "vscode_editFile_internal"
+        },
+        {
+          "value": "\n````\n",
+          "isTrusted": false,
+          "supportThemeIcons": false,
+          "supportHtml": false
+        },
+        {
+          "id": "2459d590-b39b-4c70-9ff5-a0de3ecf17b6",
+          "kind": "undoStop"
+        },
+        {
+          "kind": "codeblockUri",
+          "uri": {
+            "$mid": 1,
+            "fsPath": "c:\\OneD\\BI\\OneDrive - Farmaenlace\\Datos Portatil\\Documentos\\V220\\Curso\\2025\\Lidr\\AI4Devs\\Ejercicios\\4\\AI4Devs-design-1-202506\\LTI-WC\\prompts.md",
+            "_sep": 1,
+            "external": "file:///c%3A/OneD/BI/OneDrive%20-%20Farmaenlace/Datos%20Portatil/Documentos/V220/Curso/2025/Lidr/AI4Devs/Ejercicios/4/AI4Devs-design-1-202506/LTI-WC/prompts.md",
+            "path": "/c:/OneD/BI/OneDrive - Farmaenlace/Datos Portatil/Documentos/V220/Curso/2025/Lidr/AI4Devs/Ejercicios/4/AI4Devs-design-1-202506/LTI-WC/prompts.md",
+            "scheme": "file"
+          },
+          "isEdit": true
+        },
+        {
+          "value": "\n````\n",
+          "isTrusted": false,
+          "supportThemeIcons": false,
+          "supportHtml": false
+        },
+        {
+          "kind": "textEditGroup",
+          "uri": {
+            "$mid": 1,
+            "fsPath": "c:\\OneD\\BI\\OneDrive - Farmaenlace\\Datos Portatil\\Documentos\\V220\\Curso\\2025\\Lidr\\AI4Devs\\Ejercicios\\4\\AI4Devs-design-1-202506\\LTI-WC\\prompts.md",
+            "_sep": 1,
+            "external": "file:///c%3A/OneD/BI/OneDrive%20-%20Farmaenlace/Datos%20Portatil/Documentos/V220/Curso/2025/Lidr/AI4Devs/Ejercicios/4/AI4Devs-design-1-202506/LTI-WC/prompts.md",
+            "path": "/c:/OneD/BI/OneDrive - Farmaenlace/Datos Portatil/Documentos/V220/Curso/2025/Lidr/AI4Devs/Ejercicios/4/AI4Devs-design-1-202506/LTI-WC/prompts.md",
+            "scheme": "file"
+          },
+          "edits": [
+            [],
+            [
+              {
+                "text": "# Prompts utilizados para la documentación del sistema ATS LTI\n\n1. \"Quiero que seas un product manager donde se va a construir un sistema ATS (Applicant-Tracking System)...\"\n2. \"Planteale como generalista y los diagramas de tipo PlantUML\"\n\n# Se irán añadiendo los siguientes prompts a medida que se utilicen para la documentación.\n",
+                "range": {
+                  "startLineNumber": 1,
+                  "startColumn": 1,
+                  "endLineNumber": 1,
+                  "endColumn": 1
+                }
+              }
+            ],
+            []
+          ],
+          "done": true
+        },
+        {
+          "kind": "toolInvocationSerialized",
+          "presentation": "hidden",
+          "invocationMessage": "Usando \"Editar archivo\"",
+          "isConfirmed": true,
+          "isComplete": true,
+          "toolCallId": "abaf0a27-73b6-4d5d-ae97-eabe7af32acd",
+          "toolId": "copilot_insertEdit"
+        },
+        {
+          "kind": "toolInvocationSerialized",
+          "presentation": "hidden",
+          "invocationMessage": "Usando \"\"",
+          "isConfirmed": true,
+          "isComplete": true,
+          "toolCallId": "e4b51cd2-b988-45de-a61d-0f5f18725e6d",
+          "toolId": "vscode_editFile_internal"
+        },
+        {
+          "value": "\n````\n",
+          "isTrusted": false,
+          "supportThemeIcons": false,
+          "supportHtml": false
+        },
+        {
+          "id": "af9c616e-c70b-4231-85b8-e267ba2eafdf",
+          "kind": "undoStop"
+        },
+        {
+          "kind": "codeblockUri",
+          "uri": {
+            "$mid": 1,
+            "fsPath": "c:\\OneD\\BI\\OneDrive - Farmaenlace\\Datos Portatil\\Documentos\\V220\\Curso\\2025\\Lidr\\AI4Devs\\Ejercicios\\4\\AI4Devs-design-1-202506\\LTI-WC\\LTI-WC.md",
+            "_sep": 1,
+            "external": "file:///c%3A/OneD/BI/OneDrive%20-%20Farmaenlace/Datos%20Portatil/Documentos/V220/Curso/2025/Lidr/AI4Devs/Ejercicios/4/AI4Devs-design-1-202506/LTI-WC/LTI-WC.md",
+            "path": "/c:/OneD/BI/OneDrive - Farmaenlace/Datos Portatil/Documentos/V220/Curso/2025/Lidr/AI4Devs/Ejercicios/4/AI4Devs-design-1-202506/LTI-WC/LTI-WC.md",
+            "scheme": "file"
+          },
+          "isEdit": true
+        },
+        {
+          "value": "\n````\n",
+          "isTrusted": false,
+          "supportThemeIcons": false,
+          "supportHtml": false
+        },
+        {
+          "kind": "textEditGroup",
+          "uri": {
+            "$mid": 1,
+            "fsPath": "c:\\OneD\\BI\\OneDrive - Farmaenlace\\Datos Portatil\\Documentos\\V220\\Curso\\2025\\Lidr\\AI4Devs\\Ejercicios\\4\\AI4Devs-design-1-202506\\LTI-WC\\LTI-WC.md",
+            "_sep": 1,
+            "external": "file:///c%3A/OneD/BI/OneDrive%20-%20Farmaenlace/Datos%20Portatil/Documentos/V220/Curso/2025/Lidr/AI4Devs/Ejercicios/4/AI4Devs-design-1-202506/LTI-WC/LTI-WC.md",
+            "path": "/c:/OneD/BI/OneDrive - Farmaenlace/Datos Portatil/Documentos/V220/Curso/2025/Lidr/AI4Devs/Ejercicios/4/AI4Devs-design-1-202506/LTI-WC/LTI-WC.md",
+            "scheme": "file"
+          },
+          "edits": [
+            [],
+            [
+              {
+                "text": "# LTI - Applicant Tracking System (ATS) Generalista\n\n## 1. Descripción breve, valor añadido y ventajas competitivas\n\nLTI es un sistema ATS (Applicant Tracking System) diseñado para optimizar y automatizar el proceso de reclutamiento en empresas de cualquier sector. Su objetivo es aumentar la eficiencia de los departamentos de RRHH, mejorar la colaboración en tiempo real entre reclutadores y managers, y ofrecer automatizaciones inteligentes que reduzcan tareas manuales.\n\n**Valor añadido y ventajas competitivas:**\n- Automatización avanzada de tareas repetitivas (filtros automáticos, notificaciones, recordatorios).\n- Colaboración en tiempo real: comentarios, evaluaciones y decisiones compartidas entre reclutadores y managers.\n- Integración con portales de empleo y redes sociales.\n- Analítica avanzada y reportes personalizables.\n- Experiencia de usuario intuitiva y adaptable.\n\n**Funciones principales:**\n- Publicación y gestión de vacantes.\n- Recepción y filtrado automático de candidatos.\n- Gestión colaborativa de entrevistas y evaluaciones.\n- Comunicación automatizada con candidatos.\n- Panel de control con métricas clave.\n\n### Lean Canvas (PlantUML)\n```plantuml\n@startuml\n|Problema|\n- Procesos manuales y lentos en RRHH\n- Falta de colaboración entre equipos\n- Dificultad para filtrar candidatos\n|Solución|\n- Automatización y filtros inteligentes\n- Colaboración en tiempo real\n- Analítica avanzada\n|Métricas Clave|\n- Tiempo de contratación\n- Tasa de conversión de candidatos\n- Satisfacción de usuarios\n|Propuesta de Valor|\n- ATS eficiente, colaborativo y automatizado\n|Ventaja Competitiva|\n- Integración, UX superior, automatización\n|Canales|\n- Web, integraciones, API\n|Segmentos de Clientes|\n- Empresas de todos los sectores\n|Estructura de Costos|\n- Desarrollo, soporte, marketing\n|Flujos de Ingresos|\n- Suscripción SaaS, servicios premium\n@enduml\n```\n\n## 2. Casos de uso principales\n\n### Caso de Uso 1: Publicar Vacante y Recibir Candidatos\n```plantuml\n@startuml\nactor Reclutador\nactor Candidato\nReclutador -> (Publicar Vacante)\n(Candidato) --> (Aplicar a Vacante)\n(Publicar Vacante) --> (Recibir Candidatos)\n@enduml\n```\n\n### Caso de Uso 2: Evaluar y Filtrar Candidatos\n```plantuml\n@startuml\nactor Reclutador\nactor Manager\n(Reclutador) --> (Filtrar Candidatos)\n(Manager) --> (Evaluar Candidato)\n(Filtrar Candidatos) --> (Evaluar Candidato)\n@enduml\n```\n\n### Caso de Uso 3: Comunicación y Decisión Colaborativa\n```plantuml\n@startuml\nactor Reclutador\nactor Manager\nactor Candidato\n(Reclutador) --> (Enviar Mensaje)\n(Manager) --> (Enviar Feedback)\n(Enviar Mensaje) --> (Candidato)\n(Enviar Feedback) --> (Reclutador)\n@enduml\n```\n\n## 3. Modelo de datos\n\n| Entidad      | Atributos (nombre: tipo)                                  |\n|--------------|----------------------------------------------------------|\n| Usuario      | id: UUID, nombre: string, email: string, rol: string      |\n| Vacante      | id: UUID, titulo: string, descripcion: string, estado: string, fecha_publicacion: date, usuario_id: UUID |\n| Candidato    | id: UUID, nombre: string, email: string, cv_url: string, estado: string |\n| Aplicación   | id: UUID, candidato_id: UUID, vacante_id: UUID, fecha: date, estado: string |\n| Evaluación   | id: UUID, aplicacion_id: UUID, usuario_id: UUID, puntaje: int, comentarios: string |\n\n**Relaciones:**\n- Un Usuario puede crear muchas Vacantes.\n- Un Candidato puede aplicar a muchas Vacantes (N:M vía Aplicación).\n- Una Aplicación puede tener muchas Evaluaciones (por diferentes usuarios).\n\n## 4. Diseño de alto nivel\n\nEl sistema se compone de:\n- Frontend web (React/Vue)\n- Backend API (Node.js/Python)\n- Base de datos relacional (PostgreSQL)\n- Integraciones externas (portales de empleo, email, etc.)\n\n```plantuml\n@startuml\nnode \"Frontend Web\" as FE\nnode \"Backend API\" as BE\nnode \"Base de Datos\" as DB\ncloud \"Integraciones Externas\" as EXT\nFE --> BE : REST API\nBE --> DB : SQL\nBE --> EXT : API externas\n@enduml\n```\n\n## 5. Diagrama C4 (Nivel de Componente: Backend API)\n\n```plantuml\n@startuml\n!define RECTANGLE class\nRECTANGLE BackendAPI {\n  + AuthController\n  + VacanteController\n  + CandidatoController\n  + EvaluacionController\n  + NotificacionService\n  + IntegracionService\n}\nclass BaseDeDatos\nclass PortalesEmpleo\nclass EmailService\nBackendAPI --> BaseDeDatos : ORM/SQL\nBackendAPI --> PortalesEmpleo : API\nBackendAPI --> EmailService : SMTP/API\n@enduml\n```\n",
+                "range": {
+                  "startLineNumber": 1,
+                  "startColumn": 1,
+                  "endLineNumber": 1,
+                  "endColumn": 1
+                }
+              }
+            ],
+            []
+          ],
+          "done": true
+        },
+        {
+          "value": "La documentación inicial del sistema ATS LTI ya está creada en `LTI-WC.md`, incluyendo:\n\n- Descripción, valor añadido y ventajas competitivas.\n- Funciones principales.\n- Lean Canvas en PlantUML.\n- Tres casos de uso principales con sus diagramas PlantUML.\n- Modelo de datos con entidades, atributos y relaciones.\n- Diseño de alto nivel explicado y con diagrama PlantUML.\n- Diagrama C4 (nivel de componente) del Backend API.\n\nAdemás, los prompts utilizados han sido registrados en `prompts.md`.\n\n¿Te gustaría que amplíe algún apartado, agregue ejemplos de automatizaciones, o necesitas ayuda para visualizar los diagramas PlantUML?",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/OneD/BI/OneDrive - Farmaenlace/Datos Portatil/Documentos/V220/Curso/2025/Lidr/AI4Devs/Ejercicios/4/AI4Devs-design-1-202506/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "responseId": "response_05c6c010-18f6-4b03-8d47-d7ba7212cfce",
+      "result": {
+        "timings": {
+          "firstProgress": 1739,
+          "totalElapsed": 24654
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "renderedUserMessage": [
+            {
+              "type": 1,
+              "text": "<attachments>\n<attachment id=\"file:prompts.md\">\nUser's current visible code:\nExcerpt from prompts.md, lines 1 to 1:\n```markdown\n\n```\n</attachment>\n\n</attachments>\n<context>\nThe current date is 7 de julio de 2025.\n</context>\n<editorContext>\nThe user's current file is c:\\OneD\\BI\\OneDrive - Farmaenlace\\Datos Portatil\\Documentos\\V220\\Curso\\2025\\Lidr\\AI4Devs\\Ejercicios\\4\\AI4Devs-design-1-202506\\LTI-WC\\prompts.md. \n</editorContext>\n<reminder>\nYou are an agent - you must keep going until the user's query is completely resolved, before ending your turn and yielding back to the user. ONLY terminate your turn when you are sure that the problem is solved, or you absolutely cannot continue.\nYou take action when possible- the user is expecting YOU to take action and go to work for them. Don't ask unnecessary questions about the details if you can simply DO something useful instead.\nWhen using the insert_edit_into_file tool, avoid repeating existing code, instead use a line comment with \\`...existing code...\\` to represent regions of unchanged code.\n</reminder>\n<userRequest>\nplanteale como generalista  y los diagramas de tpo PlantUML (See <attachments> above for file contents. You may not need to search or read the file again.)\n</userRequest>\n"
+            },
+            {
+              "type": 3,
+              "cacheType": "ephemeral"
+            }
+          ],
+          "toolCallRounds": [
+            {
+              "response": "Gracias por la aclaración. Procederé a:\n\n- Plantear LTI como un ATS generalista.\n- Incluir los diagramas en formato PlantUML (en bloques de código para fácil visualización y edición).\n- Documentar todo en `LTI-WC.md`.\n- Registrar los prompts utilizados en `prompts.md`.\n\nComenzaré con la investigación de claves de éxito y ventajas competitivas para sistemas ATS, y luego avanzaré con la documentación estructurada según tus puntos. ",
+              "toolCalls": [
+                {
+                  "name": "insert_edit_into_file",
+                  "arguments": "{\"code\":\"# Prompts utilizados para la documentación del sistema ATS LTI\\n\\n1. \\\"Quiero que seas un product manager donde se va a construir un sistema ATS (Applicant-Tracking System)...\\\"\\n2. \\\"Planteale como generalista y los diagramas de tipo PlantUML\\\"\\n\\n# Se irán añadiendo los siguientes prompts a medida que se utilicen para la documentación.\\n\",\"explanation\":\"Registro de los prompts iniciales utilizados para la documentación del sistema ATS LTI.\",\"filePath\":\"c:\\\\OneD\\\\BI\\\\OneDrive - Farmaenlace\\\\Datos Portatil\\\\Documentos\\\\V220\\\\Curso\\\\2025\\\\Lidr\\\\AI4Devs\\\\Ejercicios\\\\4\\\\AI4Devs-design-1-202506\\\\LTI-WC\\\\prompts.md\"}",
+                  "id": "call_wLFzYO4HAqLUG9hhIAMJFK3P__vscode-1751894099535"
+                }
+              ],
+              "toolInputRetry": 0,
+              "id": "d9941ea6-a2ed-4dcc-b96f-e0956570b98d"
+            },
+            {
+              "response": "",
+              "toolCalls": [
+                {
+                  "name": "insert_edit_into_file",
+                  "arguments": "{\"code\":\"# LTI - Applicant Tracking System (ATS) Generalista\\n\\n## 1. Descripción breve, valor añadido y ventajas competitivas\\n\\nLTI es un sistema ATS (Applicant Tracking System) diseñado para optimizar y automatizar el proceso de reclutamiento en empresas de cualquier sector. Su objetivo es aumentar la eficiencia de los departamentos de RRHH, mejorar la colaboración en tiempo real entre reclutadores y managers, y ofrecer automatizaciones inteligentes que reduzcan tareas manuales.\\n\\n**Valor añadido y ventajas competitivas:**\\n- Automatización avanzada de tareas repetitivas (filtros automáticos, notificaciones, recordatorios).\\n- Colaboración en tiempo real: comentarios, evaluaciones y decisiones compartidas entre reclutadores y managers.\\n- Integración con portales de empleo y redes sociales.\\n- Analítica avanzada y reportes personalizables.\\n- Experiencia de usuario intuitiva y adaptable.\\n\\n**Funciones principales:**\\n- Publicación y gestión de vacantes.\\n- Recepción y filtrado automático de candidatos.\\n- Gestión colaborativa de entrevistas y evaluaciones.\\n- Comunicación automatizada con candidatos.\\n- Panel de control con métricas clave.\\n\\n### Lean Canvas (PlantUML)\\n```plantuml\\n@startuml\\n|Problema|\\n- Procesos manuales y lentos en RRHH\\n- Falta de colaboración entre equipos\\n- Dificultad para filtrar candidatos\\n|Solución|\\n- Automatización y filtros inteligentes\\n- Colaboración en tiempo real\\n- Analítica avanzada\\n|Métricas Clave|\\n- Tiempo de contratación\\n- Tasa de conversión de candidatos\\n- Satisfacción de usuarios\\n|Propuesta de Valor|\\n- ATS eficiente, colaborativo y automatizado\\n|Ventaja Competitiva|\\n- Integración, UX superior, automatización\\n|Canales|\\n- Web, integraciones, API\\n|Segmentos de Clientes|\\n- Empresas de todos los sectores\\n|Estructura de Costos|\\n- Desarrollo, soporte, marketing\\n|Flujos de Ingresos|\\n- Suscripción SaaS, servicios premium\\n@enduml\\n```\\n\\n## 2. Casos de uso principales\\n\\n### Caso de Uso 1: Publicar Vacante y Recibir Candidatos\\n```plantuml\\n@startuml\\nactor Reclutador\\nactor Candidato\\nReclutador -> (Publicar Vacante)\\n(Candidato) --> (Aplicar a Vacante)\\n(Publicar Vacante) --> (Recibir Candidatos)\\n@enduml\\n```\\n\\n### Caso de Uso 2: Evaluar y Filtrar Candidatos\\n```plantuml\\n@startuml\\nactor Reclutador\\nactor Manager\\n(Reclutador) --> (Filtrar Candidatos)\\n(Manager) --> (Evaluar Candidato)\\n(Filtrar Candidatos) --> (Evaluar Candidato)\\n@enduml\\n```\\n\\n### Caso de Uso 3: Comunicación y Decisión Colaborativa\\n```plantuml\\n@startuml\\nactor Reclutador\\nactor Manager\\nactor Candidato\\n(Reclutador) --> (Enviar Mensaje)\\n(Manager) --> (Enviar Feedback)\\n(Enviar Mensaje) --> (Candidato)\\n(Enviar Feedback) --> (Reclutador)\\n@enduml\\n```\\n\\n## 3. Modelo de datos\\n\\n| Entidad      | Atributos (nombre: tipo)                                  |\\n|--------------|----------------------------------------------------------|\\n| Usuario      | id: UUID, nombre: string, email: string, rol: string      |\\n| Vacante      | id: UUID, titulo: string, descripcion: string, estado: string, fecha_publicacion: date, usuario_id: UUID |\\n| Candidato    | id: UUID, nombre: string, email: string, cv_url: string, estado: string |\\n| Aplicación   | id: UUID, candidato_id: UUID, vacante_id: UUID, fecha: date, estado: string |\\n| Evaluación   | id: UUID, aplicacion_id: UUID, usuario_id: UUID, puntaje: int, comentarios: string |\\n\\n**Relaciones:**\\n- Un Usuario puede crear muchas Vacantes.\\n- Un Candidato puede aplicar a muchas Vacantes (N:M vía Aplicación).\\n- Una Aplicación puede tener muchas Evaluaciones (por diferentes usuarios).\\n\\n## 4. Diseño de alto nivel\\n\\nEl sistema se compone de:\\n- Frontend web (React/Vue)\\n- Backend API (Node.js/Python)\\n- Base de datos relacional (PostgreSQL)\\n- Integraciones externas (portales de empleo, email, etc.)\\n\\n```plantuml\\n@startuml\\nnode \\\"Frontend Web\\\" as FE\\nnode \\\"Backend API\\\" as BE\\nnode \\\"Base de Datos\\\" as DB\\ncloud \\\"Integraciones Externas\\\" as EXT\\nFE --> BE : REST API\\nBE --> DB : SQL\\nBE --> EXT : API externas\\n@enduml\\n```\\n\\n## 5. Diagrama C4 (Nivel de Componente: Backend API)\\n\\n```plantuml\\n@startuml\\n!define RECTANGLE class\\nRECTANGLE BackendAPI {\\n  + AuthController\\n  + VacanteController\\n  + CandidatoController\\n  + EvaluacionController\\n  + NotificacionService\\n  + IntegracionService\\n}\\nclass BaseDeDatos\\nclass PortalesEmpleo\\nclass EmailService\\nBackendAPI --> BaseDeDatos : ORM/SQL\\nBackendAPI --> PortalesEmpleo : API\\nBackendAPI --> EmailService : SMTP/API\\n@enduml\\n```\\n\",\"explanation\":\"Documentación completa del sistema ATS LTI como generalista, con diagramas PlantUML y todos los puntos solicitados.\",\"filePath\":\"c:\\\\OneD\\\\BI\\\\OneDrive - Farmaenlace\\\\Datos Portatil\\\\Documentos\\\\V220\\\\Curso\\\\2025\\\\Lidr\\\\AI4Devs\\\\Ejercicios\\\\4\\\\AI4Devs-design-1-202506\\\\LTI-WC\\\\LTI-WC.md\"}",
+                  "id": "call_5z8wurY4epF7wZ7eEWFWNifb__vscode-1751894099536"
+                }
+              ],
+              "toolInputRetry": 0,
+              "id": "b80017d6-b66d-4cde-af1f-ec60edee7222"
+            },
+            {
+              "response": "La documentación inicial del sistema ATS LTI ya está creada en `LTI-WC.md`, incluyendo:\n\n- Descripción, valor añadido y ventajas competitivas.\n- Funciones principales.\n- Lean Canvas en PlantUML.\n- Tres casos de uso principales con sus diagramas PlantUML.\n- Modelo de datos con entidades, atributos y relaciones.\n- Diseño de alto nivel explicado y con diagrama PlantUML.\n- Diagrama C4 (nivel de componente) del Backend API.\n\nAdemás, los prompts utilizados han sido registrados en `prompts.md`.\n\n¿Te gustaría que amplíe algún apartado, agregue ejemplos de automatizaciones, o necesitas ayuda para visualizar los diagramas PlantUML?",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "4f869f78-0a6e-4c14-983e-04fa025bd764"
+            }
+          ],
+          "toolCallResults": {
+            "call_wLFzYO4HAqLUG9hhIAMJFK3P__vscode-1751894099535": {
+              "$mid": 20,
+              "content": [
+                {
+                  "$mid": 22,
+                  "value": {
+                    "node": {
+                      "type": 1,
+                      "ctor": 2,
+                      "ctorName": "Zm",
+                      "children": [
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "The following files were successfully edited:",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "\n",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "c:\\OneD\\BI\\OneDrive - Farmaenlace\\Datos Portatil\\Documentos\\V220\\Curso\\2025\\Lidr\\AI4Devs\\Ejercicios\\4\\AI4Devs-design-1-202506\\LTI-WC\\prompts.md",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "\n",
+                          "lineBreakBefore": false
+                        }
+                      ],
+                      "props": {},
+                      "references": []
+                    }
+                  }
+                }
+              ]
+            },
+            "call_5z8wurY4epF7wZ7eEWFWNifb__vscode-1751894099536": {
+              "$mid": 20,
+              "content": [
+                {
+                  "$mid": 22,
+                  "value": {
+                    "node": {
+                      "type": 1,
+                      "ctor": 2,
+                      "ctorName": "Zm",
+                      "children": [
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "The following files were successfully edited:",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "\n",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "c:\\OneD\\BI\\OneDrive - Farmaenlace\\Datos Portatil\\Documentos\\V220\\Curso\\2025\\Lidr\\AI4Devs\\Ejercicios\\4\\AI4Devs-design-1-202506\\LTI-WC\\LTI-WC.md",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "\n",
+                          "lineBreakBefore": false
+                        }
+                      ],
+                      "props": {},
+                      "references": []
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "modelMessageId": "281192e3-bef5-47ca-8189-694954049213",
+          "responseId": "d7e08b72-158b-481f-8272-e652634966d5",
+          "sessionId": "66a37dc5-d80c-403e-a1bd-55b88d30097d",
+          "agentId": "github.copilot.editsAgent"
+        }
+      },
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.editsAgent",
+        "description": "Edición de archivos en el área de trabajo en modo agente",
+        "when": "config.chat.agent.enabled && !chatAgentModeDisallowed",
+        "metadata": {
+          "themeIcon": {
+            "id": "tools"
+          },
+          "hasFollowups": false,
+          "supportIssueReporting": false
+        },
+        "name": "agent",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "agent"
+        ],
+        "slashCommands": [
+          {
+            "name": "list"
+          }
+        ],
+        "disambiguation": []
+      },
+      "contentReferences": [],
+      "codeCitations": [],
+      "timestamp": 1751897264069
+    },
+    {
+      "requestId": "request_0dc5cfb5-0cde-429c-9907-e541211da090",
+      "message": {
+        "text": "en el prompts.md, puedes completar el prompt inicial, por que no está completo.",
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 79
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 80
+            },
+            "text": "en el prompts.md, puedes completar el prompt inicial, por que no está completo.",
+            "kind": "text"
+          }
+        ]
+      },
+      "variableData": {
+        "variables": [
+          {
+            "kind": "file",
+            "id": "vscode.implicit.viewport",
+            "name": "file:prompts.md",
+            "value": {
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\OneD\\BI\\OneDrive - Farmaenlace\\Datos Portatil\\Documentos\\V220\\Curso\\2025\\Lidr\\AI4Devs\\Ejercicios\\4\\AI4Devs-design-1-202506\\LTI-WC\\prompts.md",
+                "_sep": 1,
+                "external": "file:///c%3A/OneD/BI/OneDrive%20-%20Farmaenlace/Datos%20Portatil/Documentos/V220/Curso/2025/Lidr/AI4Devs/Ejercicios/4/AI4Devs-design-1-202506/LTI-WC/prompts.md",
+                "path": "/c:/OneD/BI/OneDrive - Farmaenlace/Datos Portatil/Documentos/V220/Curso/2025/Lidr/AI4Devs/Ejercicios/4/AI4Devs-design-1-202506/LTI-WC/prompts.md",
+                "scheme": "file"
+              },
+              "range": {
+                "startLineNumber": 1,
+                "startColumn": 1,
+                "endLineNumber": 7,
+                "endColumn": 1
+              }
+            },
+            "modelDescription": "User's current visible code"
+          }
+        ]
+      },
+      "response": [
+        {
+          "kind": "toolInvocationSerialized",
+          "presentation": "hidden",
+          "invocationMessage": "Usando \"Editar archivo\"",
+          "isConfirmed": true,
+          "isComplete": true,
+          "toolCallId": "2bfbd6b4-6213-4973-b2ff-d684d000816b",
+          "toolId": "copilot_insertEdit"
+        },
+        {
+          "kind": "toolInvocationSerialized",
+          "presentation": "hidden",
+          "invocationMessage": "Usando \"\"",
+          "isConfirmed": true,
+          "isComplete": true,
+          "toolCallId": "3d4c4e53-0f58-4093-aa80-b795a60795b3",
+          "toolId": "vscode_editFile_internal"
+        },
+        {
+          "value": "\n````\n",
+          "isTrusted": false,
+          "supportThemeIcons": false,
+          "supportHtml": false
+        },
+        {
+          "id": "4a71d3eb-e5e7-4a4d-9787-573acc10dfc6",
+          "kind": "undoStop"
+        },
+        {
+          "kind": "codeblockUri",
+          "uri": {
+            "$mid": 1,
+            "fsPath": "c:\\OneD\\BI\\OneDrive - Farmaenlace\\Datos Portatil\\Documentos\\V220\\Curso\\2025\\Lidr\\AI4Devs\\Ejercicios\\4\\AI4Devs-design-1-202506\\LTI-WC\\prompts.md",
+            "_sep": 1,
+            "external": "file:///c%3A/OneD/BI/OneDrive%20-%20Farmaenlace/Datos%20Portatil/Documentos/V220/Curso/2025/Lidr/AI4Devs/Ejercicios/4/AI4Devs-design-1-202506/LTI-WC/prompts.md",
+            "path": "/c:/OneD/BI/OneDrive - Farmaenlace/Datos Portatil/Documentos/V220/Curso/2025/Lidr/AI4Devs/Ejercicios/4/AI4Devs-design-1-202506/LTI-WC/prompts.md",
+            "scheme": "file"
+          },
+          "isEdit": true
+        },
+        {
+          "value": "\n````\n",
+          "isTrusted": false,
+          "supportThemeIcons": false,
+          "supportHtml": false
+        },
+        {
+          "kind": "textEditGroup",
+          "uri": {
+            "$mid": 1,
+            "fsPath": "c:\\OneD\\BI\\OneDrive - Farmaenlace\\Datos Portatil\\Documentos\\V220\\Curso\\2025\\Lidr\\AI4Devs\\Ejercicios\\4\\AI4Devs-design-1-202506\\LTI-WC\\prompts.md",
+            "_sep": 1,
+            "external": "file:///c%3A/OneD/BI/OneDrive%20-%20Farmaenlace/Datos%20Portatil/Documentos/V220/Curso/2025/Lidr/AI4Devs/Ejercicios/4/AI4Devs-design-1-202506/LTI-WC/prompts.md",
+            "path": "/c:/OneD/BI/OneDrive - Farmaenlace/Datos Portatil/Documentos/V220/Curso/2025/Lidr/AI4Devs/Ejercicios/4/AI4Devs-design-1-202506/LTI-WC/prompts.md",
+            "scheme": "file"
+          },
+          "edits": [
+            [],
+            [
+              {
+                "text": "# Prompts utilizados para la documentación del sistema ATS LTI",
+                "range": {
+                  "startLineNumber": 1,
+                  "startColumn": 1,
+                  "endLineNumber": 1,
+                  "endColumn": 63
+                }
+              }
+            ],
+            [
+              {
+                "text": "",
+                "range": {
+                  "startLineNumber": 2,
+                  "startColumn": 1,
+                  "endLineNumber": 2,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "1. \"Quiero que seas un product manager donde se va a construir un sistema ATS (Applicant-Tracking System).\\n\\nSe necesita diseñar y documentar un sistema de software siguiendo las fases de investigación y análisis, casos de uso, modelado de datos, y diseño de alto nivel.\\n\\nSe debe definir funcionalidades claves que harán brillar a LTI por encima de los competidores: aumentar la eficiencia para los departamentos de HR, mejorar la colaboración en tiempo real entre reclutadores y managers, automatizaciones.\\n\\nInvestiga cuáles pueden ser las claves del éxito y aplica a los puntos que se necesita a continuación:\\n\\n1. Descripción breve del software LTI, valor añadido y ventajas competitivas. Explicación de las funciones principales. Añadir un diagrama Lean Canvas para entender el modelo de negocio\\n2. Descripción de los 3 casos de uso principales, con el diagrama asociado a cada uno\\n3. Modelo de datos que cubra entidades, atributos (nombre y tipo) y relaciones\\n4. Diseño del sistema a alto nivel, tanto explicado como diagrama adjunto\\n5. Diagrama C4 que llegue en profundidad a uno de los componentes del sistema, el que prefieras\\n\\nToda la investigación y documentación incluyela en el archiv LTI-WC.md y tambien todos promts ocupados en el archivo prompts.md\\n\\nSi requieres más información me preguntas.\"",
+                "range": {
+                  "startLineNumber": 3,
+                  "startColumn": 1,
+                  "endLineNumber": 3,
+                  "endColumn": 110
+                }
+              }
+            ],
+            [
+              {
+                "text": "2. \"Planteale como generalista y los diagramas de tipo PlantUML\"",
+                "range": {
+                  "startLineNumber": 4,
+                  "startColumn": 1,
+                  "endLineNumber": 4,
+                  "endColumn": 65
+                }
+              }
+            ],
+            [
+              {
+                "text": "",
+                "range": {
+                  "startLineNumber": 5,
+                  "startColumn": 1,
+                  "endLineNumber": 5,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "# Se irán añadiendo los siguientes prompts a medida que se utilicen para la documentación.",
+                "range": {
+                  "startLineNumber": 6,
+                  "startColumn": 1,
+                  "endLineNumber": 6,
+                  "endColumn": 91
+                }
+              }
+            ],
+            [
+              {
+                "text": "",
+                "range": {
+                  "startLineNumber": 7,
+                  "startColumn": 1,
+                  "endLineNumber": 7,
+                  "endColumn": 1
+                }
+              }
+            ],
+            []
+          ],
+          "done": true
+        },
+        {
+          "value": "El prompt inicial en `prompts.md` ha sido completado y ahora está íntegro, reflejando todo el requerimiento original para la documentación del sistema ATS LTI.\n\n¿Hay algo más que quieras ajustar o agregar en la documentación o los prompts?",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/OneD/BI/OneDrive - Farmaenlace/Datos Portatil/Documentos/V220/Curso/2025/Lidr/AI4Devs/Ejercicios/4/AI4Devs-design-1-202506/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "responseId": "response_4a274325-b6a7-4efc-9156-1cbf5e2cd715",
+      "result": {
+        "timings": {
+          "firstProgress": 14306,
+          "totalElapsed": 14825
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "renderedUserMessage": [
+            {
+              "type": 1,
+              "text": "<attachments>\n<attachment id=\"file:prompts.md\">\nUser's current visible code:\nExcerpt from prompts.md, lines 1 to 7:\n```markdown\n# Prompts utilizados para la documentación del sistema ATS LTI\r\n\r\n1. \"Quiero que seas un product manager donde se va a construir un sistema ATS (Applicant-Tracking System)...\"\r\n2. \"Planteale como generalista y los diagramas de tipo PlantUML\"\r\n\r\n# Se irán añadiendo los siguientes prompts a medida que se utilicen para la documentación.\n```\n</attachment>\n\n</attachments>\n<context>\nThe current date is 7 de julio de 2025.\n</context>\n<editorContext>\nThe user's current file is c:\\OneD\\BI\\OneDrive - Farmaenlace\\Datos Portatil\\Documentos\\V220\\Curso\\2025\\Lidr\\AI4Devs\\Ejercicios\\4\\AI4Devs-design-1-202506\\LTI-WC\\prompts.md. \n</editorContext>\n<reminder>\nYou are an agent - you must keep going until the user's query is completely resolved, before ending your turn and yielding back to the user. ONLY terminate your turn when you are sure that the problem is solved, or you absolutely cannot continue.\nYou take action when possible- the user is expecting YOU to take action and go to work for them. Don't ask unnecessary questions about the details if you can simply DO something useful instead.\nWhen using the insert_edit_into_file tool, avoid repeating existing code, instead use a line comment with \\`...existing code...\\` to represent regions of unchanged code.\n</reminder>\n<userRequest>\nen el prompts.md, puedes completar el prompt inicial, por que no está completo. (See <attachments> above for file contents. You may not need to search or read the file again.)\n</userRequest>\n"
+            },
+            {
+              "type": 3,
+              "cacheType": "ephemeral"
+            }
+          ],
+          "toolCallRounds": [
+            {
+              "response": "",
+              "toolCalls": [
+                {
+                  "name": "insert_edit_into_file",
+                  "arguments": "{\"code\":\"# Prompts utilizados para la documentación del sistema ATS LTI\\n\\n1. \\\"Quiero que seas un product manager donde se va a construir un sistema ATS (Applicant-Tracking System).\\\\n\\\\nSe necesita diseñar y documentar un sistema de software siguiendo las fases de investigación y análisis, casos de uso, modelado de datos, y diseño de alto nivel.\\\\n\\\\nSe debe definir funcionalidades claves que harán brillar a LTI por encima de los competidores: aumentar la eficiencia para los departamentos de HR, mejorar la colaboración en tiempo real entre reclutadores y managers, automatizaciones.\\\\n\\\\nInvestiga cuáles pueden ser las claves del éxito y aplica a los puntos que se necesita a continuación:\\\\n\\\\n1. Descripción breve del software LTI, valor añadido y ventajas competitivas. Explicación de las funciones principales. Añadir un diagrama Lean Canvas para entender el modelo de negocio\\\\n2. Descripción de los 3 casos de uso principales, con el diagrama asociado a cada uno\\\\n3. Modelo de datos que cubra entidades, atributos (nombre y tipo) y relaciones\\\\n4. Diseño del sistema a alto nivel, tanto explicado como diagrama adjunto\\\\n5. Diagrama C4 que llegue en profundidad a uno de los componentes del sistema, el que prefieras\\\\n\\\\nToda la investigación y documentación incluyela en el archiv LTI-WC.md y tambien todos promts ocupados en el archivo prompts.md\\\\n\\\\nSi requieres más información me preguntas.\\\"\\n2. \\\"Planteale como generalista y los diagramas de tipo PlantUML\\\"\\n\\n# Se irán añadiendo los siguientes prompts a medida que se utilicen para la documentación.\\n\",\"explanation\":\"Completo el primer prompt en prompts.md para que quede íntegro y claro.\",\"filePath\":\"c:\\\\OneD\\\\BI\\\\OneDrive - Farmaenlace\\\\Datos Portatil\\\\Documentos\\\\V220\\\\Curso\\\\2025\\\\Lidr\\\\AI4Devs\\\\Ejercicios\\\\4\\\\AI4Devs-design-1-202506\\\\LTI-WC\\\\prompts.md\"}",
+                  "id": "call_QPS7NqSQVNuOOCqmdrxv9jvh__vscode-1751894099537"
+                }
+              ],
+              "toolInputRetry": 0,
+              "id": "1832fe83-a924-4971-a9aa-92f3a2cb305e"
+            },
+            {
+              "response": "El prompt inicial en `prompts.md` ha sido completado y ahora está íntegro, reflejando todo el requerimiento original para la documentación del sistema ATS LTI.\n\n¿Hay algo más que quieras ajustar o agregar en la documentación o los prompts?",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "20cefecd-5009-451d-8107-4d0a14227f54"
+            }
+          ],
+          "toolCallResults": {
+            "call_QPS7NqSQVNuOOCqmdrxv9jvh__vscode-1751894099537": {
+              "$mid": 20,
+              "content": [
+                {
+                  "$mid": 22,
+                  "value": {
+                    "node": {
+                      "type": 1,
+                      "ctor": 2,
+                      "ctorName": "Zm",
+                      "children": [
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "The following files were successfully edited:",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "\n",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "c:\\OneD\\BI\\OneDrive - Farmaenlace\\Datos Portatil\\Documentos\\V220\\Curso\\2025\\Lidr\\AI4Devs\\Ejercicios\\4\\AI4Devs-design-1-202506\\LTI-WC\\prompts.md",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "\n",
+                          "lineBreakBefore": false
+                        }
+                      ],
+                      "props": {},
+                      "references": []
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "modelMessageId": "02f083cb-83e5-48e2-b0bf-3ca2d9a5be99",
+          "responseId": "86605e2e-6ec8-49a8-8989-f3e4621fa554",
+          "sessionId": "66a37dc5-d80c-403e-a1bd-55b88d30097d",
+          "agentId": "github.copilot.editsAgent"
+        }
+      },
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.editsAgent",
+        "description": "Edición de archivos en el área de trabajo en modo agente",
+        "when": "config.chat.agent.enabled && !chatAgentModeDisallowed",
+        "metadata": {
+          "themeIcon": {
+            "id": "tools"
+          },
+          "hasFollowups": false,
+          "supportIssueReporting": false
+        },
+        "name": "agent",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "agent"
+        ],
+        "slashCommands": [
+          {
+            "name": "list"
+          }
+        ],
+        "disambiguation": []
+      },
+      "contentReferences": [],
+      "codeCitations": [],
+      "timestamp": 1751897378818,
+      "editedFileEvents": [
+        {
+          "eventKind": 1,
+          "uri": {
+            "$mid": 1,
+            "fsPath": "c:\\OneD\\BI\\OneDrive - Farmaenlace\\Datos Portatil\\Documentos\\V220\\Curso\\2025\\Lidr\\AI4Devs\\Ejercicios\\4\\AI4Devs-design-1-202506\\LTI-WC\\LTI-WC.md",
+            "_sep": 1,
+            "external": "file:///c%3A/OneD/BI/OneDrive%20-%20Farmaenlace/Datos%20Portatil/Documentos/V220/Curso/2025/Lidr/AI4Devs/Ejercicios/4/AI4Devs-design-1-202506/LTI-WC/LTI-WC.md",
+            "path": "/c:/OneD/BI/OneDrive - Farmaenlace/Datos Portatil/Documentos/V220/Curso/2025/Lidr/AI4Devs/Ejercicios/4/AI4Devs-design-1-202506/LTI-WC/LTI-WC.md",
+            "scheme": "file"
+          }
+        },
+        {
+          "eventKind": 1,
+          "uri": {
+            "$mid": 1,
+            "fsPath": "c:\\OneD\\BI\\OneDrive - Farmaenlace\\Datos Portatil\\Documentos\\V220\\Curso\\2025\\Lidr\\AI4Devs\\Ejercicios\\4\\AI4Devs-design-1-202506\\LTI-WC\\prompts.md",
+            "_sep": 1,
+            "external": "file:///c%3A/OneD/BI/OneDrive%20-%20Farmaenlace/Datos%20Portatil/Documentos/V220/Curso/2025/Lidr/AI4Devs/Ejercicios/4/AI4Devs-design-1-202506/LTI-WC/prompts.md",
+            "path": "/c:/OneD/BI/OneDrive - Farmaenlace/Datos Portatil/Documentos/V220/Curso/2025/Lidr/AI4Devs/Ejercicios/4/AI4Devs-design-1-202506/LTI-WC/prompts.md",
+            "scheme": "file"
+          }
+        }
+      ]
+    },
+    {
+      "requestId": "request_2870975c-58cf-4920-860b-e2aa8343e213",
+      "message": {
+        "text": "puedes ser más descriptivo en cada uno de los puntos, es para poder entender cada uno de los puntos.",
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 100
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 101
+            },
+            "text": "puedes ser más descriptivo en cada uno de los puntos, es para poder entender cada uno de los puntos.",
+            "kind": "text"
+          }
+        ]
+      },
+      "variableData": {
+        "variables": [
+          {
+            "kind": "file",
+            "id": "vscode.implicit.viewport",
+            "name": "file:LTI-WC.md",
+            "value": {
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\OneD\\BI\\OneDrive - Farmaenlace\\Datos Portatil\\Documentos\\V220\\Curso\\2025\\Lidr\\AI4Devs\\Ejercicios\\4\\AI4Devs-design-1-202506\\LTI-WC\\LTI-WC.md",
+                "_sep": 1,
+                "external": "file:///c%3A/OneD/BI/OneDrive%20-%20Farmaenlace/Datos%20Portatil/Documentos/V220/Curso/2025/Lidr/AI4Devs/Ejercicios/4/AI4Devs-design-1-202506/LTI-WC/LTI-WC.md",
+                "path": "/c:/OneD/BI/OneDrive - Farmaenlace/Datos Portatil/Documentos/V220/Curso/2025/Lidr/AI4Devs/Ejercicios/4/AI4Devs-design-1-202506/LTI-WC/LTI-WC.md",
+                "scheme": "file"
+              },
+              "range": {
+                "startLineNumber": 27,
+                "startColumn": 1,
+                "endLineNumber": 62,
+                "endColumn": 4
+              }
+            },
+            "modelDescription": "User's current visible code"
+          }
+        ]
+      },
+      "response": [
+        {
+          "value": "Voy a enriquecer la documentación en `LTI-WC.md` para que cada punto tenga una explicación más detallada y comprensible, incluyendo descripciones claras de las ventajas, funciones, casos de uso, modelo de datos, arquitectura y el diagrama C4. Esto facilitará la comprensión del sistema tanto a nivel técnico como de negocio.\n\nProcedo a mejorar y ampliar cada sección. ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/OneD/BI/OneDrive - Farmaenlace/Datos Portatil/Documentos/V220/Curso/2025/Lidr/AI4Devs/Ejercicios/4/AI4Devs-design-1-202506/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "prepareToolInvocation",
+          "toolName": "copilot_insertEdit"
+        },
+        {
+          "kind": "toolInvocationSerialized",
+          "presentation": "hidden",
+          "invocationMessage": "Usando \"Editar archivo\"",
+          "isConfirmed": true,
+          "isComplete": true,
+          "toolCallId": "245d9036-ceb9-4784-857e-1ba0c5da83fe",
+          "toolId": "copilot_insertEdit"
+        },
+        {
+          "kind": "toolInvocationSerialized",
+          "presentation": "hidden",
+          "invocationMessage": "Usando \"\"",
+          "isConfirmed": true,
+          "isComplete": true,
+          "toolCallId": "cd3482f9-0688-4898-bd3f-de01225148ac",
+          "toolId": "vscode_editFile_internal"
+        },
+        {
+          "value": "\n````\n",
+          "isTrusted": false,
+          "supportThemeIcons": false,
+          "supportHtml": false
+        },
+        {
+          "id": "794958ad-b837-4bc3-9146-03556851f734",
+          "kind": "undoStop"
+        },
+        {
+          "kind": "codeblockUri",
+          "uri": {
+            "$mid": 1,
+            "fsPath": "c:\\OneD\\BI\\OneDrive - Farmaenlace\\Datos Portatil\\Documentos\\V220\\Curso\\2025\\Lidr\\AI4Devs\\Ejercicios\\4\\AI4Devs-design-1-202506\\LTI-WC\\LTI-WC.md",
+            "_sep": 1,
+            "external": "file:///c%3A/OneD/BI/OneDrive%20-%20Farmaenlace/Datos%20Portatil/Documentos/V220/Curso/2025/Lidr/AI4Devs/Ejercicios/4/AI4Devs-design-1-202506/LTI-WC/LTI-WC.md",
+            "path": "/c:/OneD/BI/OneDrive - Farmaenlace/Datos Portatil/Documentos/V220/Curso/2025/Lidr/AI4Devs/Ejercicios/4/AI4Devs-design-1-202506/LTI-WC/LTI-WC.md",
+            "scheme": "file"
+          },
+          "isEdit": true
+        },
+        {
+          "value": "\n````\n",
+          "isTrusted": false,
+          "supportThemeIcons": false,
+          "supportHtml": false
+        },
+        {
+          "kind": "textEditGroup",
+          "uri": {
+            "$mid": 1,
+            "fsPath": "c:\\OneD\\BI\\OneDrive - Farmaenlace\\Datos Portatil\\Documentos\\V220\\Curso\\2025\\Lidr\\AI4Devs\\Ejercicios\\4\\AI4Devs-design-1-202506\\LTI-WC\\LTI-WC.md",
+            "_sep": 1,
+            "external": "file:///c%3A/OneD/BI/OneDrive%20-%20Farmaenlace/Datos%20Portatil/Documentos/V220/Curso/2025/Lidr/AI4Devs/Ejercicios/4/AI4Devs-design-1-202506/LTI-WC/LTI-WC.md",
+            "path": "/c:/OneD/BI/OneDrive - Farmaenlace/Datos Portatil/Documentos/V220/Curso/2025/Lidr/AI4Devs/Ejercicios/4/AI4Devs-design-1-202506/LTI-WC/LTI-WC.md",
+            "scheme": "file"
+          },
+          "edits": [
+            [],
+            [
+              {
+                "text": "# LTI - Applicant Tracking System (ATS) Generalista",
+                "range": {
+                  "startLineNumber": 1,
+                  "startColumn": 1,
+                  "endLineNumber": 1,
+                  "endColumn": 52
+                }
+              }
+            ],
+            [
+              {
+                "text": "",
+                "range": {
+                  "startLineNumber": 2,
+                  "startColumn": 1,
+                  "endLineNumber": 2,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "## 1. Descripción breve, valor añadido y ventajas competitivas",
+                "range": {
+                  "startLineNumber": 3,
+                  "startColumn": 1,
+                  "endLineNumber": 3,
+                  "endColumn": 63
+                }
+              }
+            ],
+            [
+              {
+                "text": "",
+                "range": {
+                  "startLineNumber": 4,
+                  "startColumn": 1,
+                  "endLineNumber": 4,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "LTI es un sistema ATS (Applicant Tracking System) generalista, diseñado para digitalizar y optimizar el proceso de reclutamiento en empresas de cualquier sector y tamaño. Su objetivo es centralizar todas las etapas del ciclo de vida de una vacante, desde la publicación hasta la contratación, permitiendo a los equipos de RRHH y managers trabajar de forma más eficiente y colaborativa.",
+                "range": {
+                  "startLineNumber": 5,
+                  "startColumn": 1,
+                  "endLineNumber": 5,
+                  "endColumn": 357
+                }
+              }
+            ],
+            [
+              {
+                "text": "",
+                "range": {
+                  "startLineNumber": 6,
+                  "startColumn": 1,
+                  "endLineNumber": 6,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "**Valor añadido y ventajas competitivas:**",
+                "range": {
+                  "startLineNumber": 7,
+                  "startColumn": 1,
+                  "endLineNumber": 7,
+                  "endColumn": 43
+                }
+              }
+            ],
+            [
+              {
+                "text": "- **Automatización avanzada:** LTI automatiza tareas repetitivas como el filtrado de CVs, envío de notificaciones y recordatorios, y programación de entrevistas, permitiendo a los equipos centrarse en tareas estratégicas.",
+                "range": {
+                  "startLineNumber": 8,
+                  "startColumn": 1,
+                  "endLineNumber": 8,
+                  "endColumn": 102
+                }
+              }
+            ],
+            [
+              {
+                "text": "- **Colaboración en tiempo real:** Permite que reclutadores y managers puedan comentar, evaluar y tomar decisiones de forma conjunta y transparente sobre los candidatos, todo en una misma plataforma.",
+                "range": {
+                  "startLineNumber": 9,
+                  "startColumn": 1,
+                  "endLineNumber": 9,
+                  "endColumn": 113
+                }
+              }
+            ],
+            [
+              {
+                "text": "- **Integración con portales y redes:** LTI se conecta con portales de empleo, LinkedIn y otros canales, centralizando la recepción de candidatos y facilitando la publicación de vacantes.",
+                "range": {
+                  "startLineNumber": 10,
+                  "startColumn": 1,
+                  "endLineNumber": 10,
+                  "endColumn": 55
+                }
+              }
+            ],
+            [
+              {
+                "text": "- **Analítica avanzada:** Ofrece dashboards y reportes personalizables para medir la eficiencia del proceso, identificar cuellos de botella y mejorar la toma de decisiones.",
+                "range": {
+                  "startLineNumber": 11,
+                  "startColumn": 1,
+                  "endLineNumber": 11,
+                  "endColumn": 49
+                }
+              }
+            ],
+            [
+              {
+                "text": "- **Experiencia de usuario superior:** Interfaz intuitiva, adaptable a distintos roles y dispositivos, con flujos guiados y personalizables.",
+                "range": {
+                  "startLineNumber": 12,
+                  "startColumn": 1,
+                  "endLineNumber": 12,
+                  "endColumn": 48
+                }
+              }
+            ],
+            [
+              {
+                "text": "",
+                "range": {
+                  "startLineNumber": 13,
+                  "startColumn": 1,
+                  "endLineNumber": 13,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "**Funciones principales:**",
+                "range": {
+                  "startLineNumber": 14,
+                  "startColumn": 1,
+                  "endLineNumber": 14,
+                  "endColumn": 27
+                }
+              }
+            ],
+            [
+              {
+                "text": "- **Publicación y gestión de vacantes:** Crear, editar y publicar vacantes en múltiples portales desde un solo lugar.",
+                "range": {
+                  "startLineNumber": 15,
+                  "startColumn": 1,
+                  "endLineNumber": 15,
+                  "endColumn": 37
+                }
+              }
+            ],
+            [
+              {
+                "text": "- **Recepción y filtrado automático de candidatos:** Los candidatos se centralizan y se filtran automáticamente según criterios definidos (palabras clave, experiencia, etc.).",
+                "range": {
+                  "startLineNumber": 16,
+                  "startColumn": 1,
+                  "endLineNumber": 16,
+                  "endColumn": 49
+                }
+              }
+            ],
+            [
+              {
+                "text": "- **Gestión colaborativa de entrevistas y evaluaciones:** Permite agendar entrevistas, asignar evaluadores y registrar feedback de manera estructurada.",
+                "range": {
+                  "startLineNumber": 17,
+                  "startColumn": 1,
+                  "endLineNumber": 17,
+                  "endColumn": 54
+                }
+              }
+            ],
+            [
+              {
+                "text": "- **Comunicación automatizada:** Envío de emails y notificaciones automáticas a candidatos en cada etapa del proceso.",
+                "range": {
+                  "startLineNumber": 18,
+                  "startColumn": 1,
+                  "endLineNumber": 18,
+                  "endColumn": 44
+                }
+              }
+            ],
+            [
+              {
+                "text": "- **Panel de control y métricas:** Visualización de KPIs como tiempo de contratación, tasa de conversión, fuentes de candidatos, etc.",
+                "range": {
+                  "startLineNumber": 19,
+                  "startColumn": 1,
+                  "endLineNumber": 19,
+                  "endColumn": 39
+                }
+              }
+            ],
+            [
+              {
+                "text": "",
+                "range": {
+                  "startLineNumber": 20,
+                  "startColumn": 1,
+                  "endLineNumber": 20,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "### Lean Canvas (PlantUML)",
+                "range": {
+                  "startLineNumber": 21,
+                  "startColumn": 1,
+                  "endLineNumber": 21,
+                  "endColumn": 27
+                }
+              }
+            ],
+            [
+              {
+                "text": "```plantuml",
+                "range": {
+                  "startLineNumber": 22,
+                  "startColumn": 1,
+                  "endLineNumber": 22,
+                  "endColumn": 12
+                }
+              }
+            ],
+            [
+              {
+                "text": "@startuml",
+                "range": {
+                  "startLineNumber": 23,
+                  "startColumn": 1,
+                  "endLineNumber": 23,
+                  "endColumn": 10
+                }
+              }
+            ],
+            [
+              {
+                "text": "|Problema|",
+                "range": {
+                  "startLineNumber": 24,
+                  "startColumn": 1,
+                  "endLineNumber": 24,
+                  "endColumn": 11
+                }
+              }
+            ],
+            [
+              {
+                "text": "- Procesos manuales y lentos en RRHH",
+                "range": {
+                  "startLineNumber": 25,
+                  "startColumn": 1,
+                  "endLineNumber": 25,
+                  "endColumn": 37
+                }
+              }
+            ],
+            [
+              {
+                "text": "- Falta de colaboración entre equipos",
+                "range": {
+                  "startLineNumber": 26,
+                  "startColumn": 1,
+                  "endLineNumber": 26,
+                  "endColumn": 38
+                }
+              }
+            ],
+            [
+              {
+                "text": "- Dificultad para filtrar candidatos",
+                "range": {
+                  "startLineNumber": 27,
+                  "startColumn": 1,
+                  "endLineNumber": 27,
+                  "endColumn": 37
+                }
+              }
+            ],
+            [
+              {
+                "text": "|Solución|",
+                "range": {
+                  "startLineNumber": 28,
+                  "startColumn": 1,
+                  "endLineNumber": 28,
+                  "endColumn": 11
+                }
+              }
+            ],
+            [
+              {
+                "text": "- Automatización y filtros inteligentes para reducir tareas manuales",
+                "range": {
+                  "startLineNumber": 29,
+                  "startColumn": 1,
+                  "endLineNumber": 29,
+                  "endColumn": 40
+                }
+              }
+            ],
+            [
+              {
+                "text": "- Colaboración en tiempo real y visibilidad compartida",
+                "range": {
+                  "startLineNumber": 30,
+                  "startColumn": 1,
+                  "endLineNumber": 30,
+                  "endColumn": 30
+                }
+              }
+            ],
+            [
+              {
+                "text": "- Analítica avanzada para la toma de decisiones",
+                "range": {
+                  "startLineNumber": 31,
+                  "startColumn": 1,
+                  "endLineNumber": 31,
+                  "endColumn": 21
+                }
+              }
+            ],
+            [
+              {
+                "text": "|Métricas Clave|",
+                "range": {
+                  "startLineNumber": 32,
+                  "startColumn": 1,
+                  "endLineNumber": 32,
+                  "endColumn": 17
+                }
+              }
+            ],
+            [
+              {
+                "text": "- Tiempo de contratación",
+                "range": {
+                  "startLineNumber": 33,
+                  "startColumn": 1,
+                  "endLineNumber": 33,
+                  "endColumn": 25
+                }
+              }
+            ],
+            [
+              {
+                "text": "- Tasa de conversión de candidatos",
+                "range": {
+                  "startLineNumber": 34,
+                  "startColumn": 1,
+                  "endLineNumber": 34,
+                  "endColumn": 35
+                }
+              }
+            ],
+            [
+              {
+                "text": "- Satisfacción de usuarios (NPS)",
+                "range": {
+                  "startLineNumber": 35,
+                  "startColumn": 1,
+                  "endLineNumber": 35,
+                  "endColumn": 27
+                }
+              }
+            ],
+            [
+              {
+                "text": "|Propuesta de Valor|",
+                "range": {
+                  "startLineNumber": 36,
+                  "startColumn": 1,
+                  "endLineNumber": 36,
+                  "endColumn": 21
+                }
+              }
+            ],
+            [
+              {
+                "text": "- ATS eficiente, colaborativo y automatizado que ahorra tiempo y mejora la calidad de contratación",
+                "range": {
+                  "startLineNumber": 37,
+                  "startColumn": 1,
+                  "endLineNumber": 37,
+                  "endColumn": 45
+                }
+              }
+            ],
+            [
+              {
+                "text": "|Ventaja Competitiva|",
+                "range": {
+                  "startLineNumber": 38,
+                  "startColumn": 1,
+                  "endLineNumber": 38,
+                  "endColumn": 22
+                }
+              }
+            ],
+            [
+              {
+                "text": "- Integración con múltiples canales, UX superior, automatización inteligente",
+                "range": {
+                  "startLineNumber": 39,
+                  "startColumn": 1,
+                  "endLineNumber": 39,
+                  "endColumn": 43
+                }
+              }
+            ],
+            [
+              {
+                "text": "|Canales|",
+                "range": {
+                  "startLineNumber": 40,
+                  "startColumn": 1,
+                  "endLineNumber": 40,
+                  "endColumn": 10
+                }
+              }
+            ],
+            [
+              {
+                "text": "- Web, integraciones, API, portales de empleo",
+                "range": {
+                  "startLineNumber": 41,
+                  "startColumn": 1,
+                  "endLineNumber": 41,
+                  "endColumn": 26
+                }
+              }
+            ],
+            [
+              {
+                "text": "|Segmentos de Clientes|",
+                "range": {
+                  "startLineNumber": 42,
+                  "startColumn": 1,
+                  "endLineNumber": 42,
+                  "endColumn": 24
+                }
+              }
+            ],
+            [
+              {
+                "text": "- Empresas de todos los sectores y tamaños",
+                "range": {
+                  "startLineNumber": 43,
+                  "startColumn": 1,
+                  "endLineNumber": 43,
+                  "endColumn": 33
+                }
+              }
+            ],
+            [
+              {
+                "text": "|Estructura de Costos|",
+                "range": {
+                  "startLineNumber": 44,
+                  "startColumn": 1,
+                  "endLineNumber": 44,
+                  "endColumn": 23
+                }
+              }
+            ],
+            [
+              {
+                "text": "- Desarrollo, soporte, marketing, infraestructura cloud",
+                "range": {
+                  "startLineNumber": 45,
+                  "startColumn": 1,
+                  "endLineNumber": 45,
+                  "endColumn": 33
+                }
+              }
+            ],
+            [
+              {
+                "text": "|Flujos de Ingresos|",
+                "range": {
+                  "startLineNumber": 46,
+                  "startColumn": 1,
+                  "endLineNumber": 46,
+                  "endColumn": 21
+                }
+              }
+            ],
+            [
+              {
+                "text": "- Suscripción SaaS, servicios premium, integraciones avanzadas",
+                "range": {
+                  "startLineNumber": 47,
+                  "startColumn": 1,
+                  "endLineNumber": 47,
+                  "endColumn": 38
+                }
+              }
+            ],
+            [
+              {
+                "text": "@enduml",
+                "range": {
+                  "startLineNumber": 48,
+                  "startColumn": 1,
+                  "endLineNumber": 48,
+                  "endColumn": 8
+                }
+              }
+            ],
+            [
+              {
+                "text": "```",
+                "range": {
+                  "startLineNumber": 49,
+                  "startColumn": 1,
+                  "endLineNumber": 49,
+                  "endColumn": 4
+                }
+              }
+            ],
+            [
+              {
+                "text": "",
+                "range": {
+                  "startLineNumber": 50,
+                  "startColumn": 1,
+                  "endLineNumber": 50,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "## 2. Casos de uso principales",
+                "range": {
+                  "startLineNumber": 51,
+                  "startColumn": 1,
+                  "endLineNumber": 51,
+                  "endColumn": 31
+                }
+              }
+            ],
+            [
+              {
+                "text": "",
+                "range": {
+                  "startLineNumber": 52,
+                  "startColumn": 1,
+                  "endLineNumber": 52,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "A continuación se describen los tres casos de uso más relevantes del sistema, con su diagrama asociado:",
+                "range": {
+                  "startLineNumber": 53,
+                  "startColumn": 1,
+                  "endLineNumber": 53,
+                  "endColumn": 57
+                }
+              }
+            ],
+            [
+              {
+                "text": "",
+                "range": {
+                  "startLineNumber": 54,
+                  "startColumn": 1,
+                  "endLineNumber": 54,
+                  "endColumn": 12
+                }
+              }
+            ],
+            [
+              {
+                "text": "### Caso de Uso 1: Publicar Vacante y Recibir Candidatos",
+                "range": {
+                  "startLineNumber": 55,
+                  "startColumn": 1,
+                  "endLineNumber": 55,
+                  "endColumn": 10
+                }
+              }
+            ],
+            [
+              {
+                "text": "**Descripción:** El reclutador crea y publica una vacante en el sistema, que automáticamente la distribuye en portales de empleo y redes sociales. Los candidatos pueden postularse desde cualquier canal y sus datos llegan centralizados al sistema.",
+                "range": {
+                  "startLineNumber": 56,
+                  "startColumn": 1,
+                  "endLineNumber": 56,
+                  "endColumn": 17
+                }
+              }
+            ],
+            [
+              {
+                "text": "```plantuml",
+                "range": {
+                  "startLineNumber": 57,
+                  "startColumn": 1,
+                  "endLineNumber": 57,
+                  "endColumn": 16
+                }
+              }
+            ],
+            [
+              {
+                "text": "@startuml",
+                "range": {
+                  "startLineNumber": 58,
+                  "startColumn": 1,
+                  "endLineNumber": 58,
+                  "endColumn": 33
+                }
+              }
+            ],
+            [
+              {
+                "text": "actor Reclutador",
+                "range": {
+                  "startLineNumber": 59,
+                  "startColumn": 1,
+                  "endLineNumber": 59,
+                  "endColumn": 36
+                }
+              }
+            ],
+            [
+              {
+                "text": "actor Candidato",
+                "range": {
+                  "startLineNumber": 60,
+                  "startColumn": 1,
+                  "endLineNumber": 60,
+                  "endColumn": 44
+                }
+              }
+            ],
+            [
+              {
+                "text": "Reclutador -> (Publicar Vacante) : Crea y publica",
+                "range": {
+                  "startLineNumber": 61,
+                  "startColumn": 1,
+                  "endLineNumber": 61,
+                  "endColumn": 8
+                }
+              }
+            ],
+            [
+              {
+                "text": "(Publicar Vacante) --> (Difusión en portales)",
+                "range": {
+                  "startLineNumber": 62,
+                  "startColumn": 1,
+                  "endLineNumber": 62,
+                  "endColumn": 4
+                }
+              }
+            ],
+            [
+              {
+                "text": "(Candidato) --> (Aplicar a Vacante) : Envía CV",
+                "range": {
+                  "startLineNumber": 63,
+                  "startColumn": 1,
+                  "endLineNumber": 63,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "(Aplicar a Vacante) --> (Recibir Candidatos)",
+                "range": {
+                  "startLineNumber": 64,
+                  "startColumn": 1,
+                  "endLineNumber": 64,
+                  "endColumn": 48
+                }
+              }
+            ],
+            [
+              {
+                "text": "@enduml",
+                "range": {
+                  "startLineNumber": 65,
+                  "startColumn": 1,
+                  "endLineNumber": 65,
+                  "endColumn": 12
+                }
+              }
+            ],
+            [
+              {
+                "text": "```",
+                "range": {
+                  "startLineNumber": 66,
+                  "startColumn": 1,
+                  "endLineNumber": 66,
+                  "endColumn": 10
+                }
+              }
+            ],
+            [
+              {
+                "text": "",
+                "range": {
+                  "startLineNumber": 67,
+                  "startColumn": 1,
+                  "endLineNumber": 67,
+                  "endColumn": 17
+                }
+              }
+            ],
+            [
+              {
+                "text": "### Caso de Uso 2: Evaluar y Filtrar Candidatos",
+                "range": {
+                  "startLineNumber": 68,
+                  "startColumn": 1,
+                  "endLineNumber": 68,
+                  "endColumn": 14
+                }
+              }
+            ],
+            [
+              {
+                "text": "**Descripción:** El reclutador utiliza filtros automáticos para preseleccionar candidatos. Los managers pueden acceder a los perfiles, evaluarlos y dejar comentarios o puntuaciones. El proceso es colaborativo y transparente.",
+                "range": {
+                  "startLineNumber": 69,
+                  "startColumn": 1,
+                  "endLineNumber": 69,
+                  "endColumn": 38
+                }
+              }
+            ],
+            [
+              {
+                "text": "```plantuml",
+                "range": {
+                  "startLineNumber": 70,
+                  "startColumn": 1,
+                  "endLineNumber": 70,
+                  "endColumn": 34
+                }
+              }
+            ],
+            [
+              {
+                "text": "@startuml",
+                "range": {
+                  "startLineNumber": 71,
+                  "startColumn": 1,
+                  "endLineNumber": 71,
+                  "endColumn": 45
+                }
+              }
+            ],
+            [
+              {
+                "text": "actor Reclutador",
+                "range": {
+                  "startLineNumber": 72,
+                  "startColumn": 1,
+                  "endLineNumber": 72,
+                  "endColumn": 8
+                }
+              }
+            ],
+            [
+              {
+                "text": "actor Manager",
+                "range": {
+                  "startLineNumber": 73,
+                  "startColumn": 1,
+                  "endLineNumber": 73,
+                  "endColumn": 4
+                }
+              }
+            ],
+            [
+              {
+                "text": "(Reclutador) --> (Filtrar Candidatos) : Usa filtros automáticos",
+                "range": {
+                  "startLineNumber": 74,
+                  "startColumn": 1,
+                  "endLineNumber": 74,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "(Filtrar Candidatos) --> (Lista Preseleccionada)",
+                "range": {
+                  "startLineNumber": 75,
+                  "startColumn": 1,
+                  "endLineNumber": 75,
+                  "endColumn": 56
+                }
+              }
+            ],
+            [
+              {
+                "text": "(Manager) --> (Evaluar Candidato) : Revisa y puntúa",
+                "range": {
+                  "startLineNumber": 76,
+                  "startColumn": 1,
+                  "endLineNumber": 76,
+                  "endColumn": 12
+                }
+              }
+            ],
+            [
+              {
+                "text": "(Evaluar Candidato) --> (Lista Preseleccionada)",
+                "range": {
+                  "startLineNumber": 77,
+                  "startColumn": 1,
+                  "endLineNumber": 77,
+                  "endColumn": 10
+                }
+              }
+            ],
+            [
+              {
+                "text": "@enduml",
+                "range": {
+                  "startLineNumber": 78,
+                  "startColumn": 1,
+                  "endLineNumber": 78,
+                  "endColumn": 17
+                }
+              }
+            ],
+            [
+              {
+                "text": "```",
+                "range": {
+                  "startLineNumber": 79,
+                  "startColumn": 1,
+                  "endLineNumber": 79,
+                  "endColumn": 14
+                }
+              }
+            ],
+            [
+              {
+                "text": "",
+                "range": {
+                  "startLineNumber": 80,
+                  "startColumn": 1,
+                  "endLineNumber": 80,
+                  "endColumn": 16
+                }
+              }
+            ],
+            [
+              {
+                "text": "### Caso de Uso 3: Comunicación y Decisión Colaborativa",
+                "range": {
+                  "startLineNumber": 81,
+                  "startColumn": 1,
+                  "endLineNumber": 81,
+                  "endColumn": 34
+                }
+              }
+            ],
+            [
+              {
+                "text": "**Descripción:** Reclutadores y managers pueden comunicarse entre sí y con los candidatos desde la plataforma, enviar mensajes, feedback y notificaciones automáticas. La decisión final de contratación se toma de forma colaborativa y queda registrada.",
+                "range": {
+                  "startLineNumber": 82,
+                  "startColumn": 1,
+                  "endLineNumber": 82,
+                  "endColumn": 32
+                }
+              }
+            ],
+            [
+              {
+                "text": "```plantuml",
+                "range": {
+                  "startLineNumber": 83,
+                  "startColumn": 1,
+                  "endLineNumber": 83,
+                  "endColumn": 33
+                }
+              }
+            ],
+            [
+              {
+                "text": "@startuml",
+                "range": {
+                  "startLineNumber": 84,
+                  "startColumn": 1,
+                  "endLineNumber": 84,
+                  "endColumn": 35
+                }
+              }
+            ],
+            [
+              {
+                "text": "actor Reclutador",
+                "range": {
+                  "startLineNumber": 85,
+                  "startColumn": 1,
+                  "endLineNumber": 85,
+                  "endColumn": 8
+                }
+              }
+            ],
+            [
+              {
+                "text": "actor Manager",
+                "range": {
+                  "startLineNumber": 86,
+                  "startColumn": 1,
+                  "endLineNumber": 86,
+                  "endColumn": 4
+                }
+              }
+            ],
+            [
+              {
+                "text": "actor Candidato",
+                "range": {
+                  "startLineNumber": 87,
+                  "startColumn": 1,
+                  "endLineNumber": 87,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "(Reclutador) --> (Enviar Mensaje) : Comunica avances",
+                "range": {
+                  "startLineNumber": 88,
+                  "startColumn": 1,
+                  "endLineNumber": 88,
+                  "endColumn": 22
+                }
+              }
+            ],
+            [
+              {
+                "text": "(Manager) --> (Enviar Feedback) : Da retroalimentación",
+                "range": {
+                  "startLineNumber": 89,
+                  "startColumn": 1,
+                  "endLineNumber": 89,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "(Enviar Mensaje) --> (Candidato)",
+                "range": {
+                  "startLineNumber": 90,
+                  "startColumn": 1,
+                  "endLineNumber": 90,
+                  "endColumn": 77
+                }
+              }
+            ],
+            [
+              {
+                "text": "(Enviar Feedback) --> (Reclutador)",
+                "range": {
+                  "startLineNumber": 91,
+                  "startColumn": 1,
+                  "endLineNumber": 91,
+                  "endColumn": 76
+                }
+              }
+            ],
+            [
+              {
+                "text": "(Reclutador) --> (Decisión Final) : Contratación",
+                "range": {
+                  "startLineNumber": 92,
+                  "startColumn": 1,
+                  "endLineNumber": 92,
+                  "endColumn": 77
+                }
+              }
+            ],
+            [
+              {
+                "text": "(Manager) --> (Decisión Final)",
+                "range": {
+                  "startLineNumber": 93,
+                  "startColumn": 1,
+                  "endLineNumber": 93,
+                  "endColumn": 124
+                }
+              }
+            ],
+            [
+              {
+                "text": "@enduml",
+                "range": {
+                  "startLineNumber": 94,
+                  "startColumn": 1,
+                  "endLineNumber": 94,
+                  "endColumn": 91
+                }
+              }
+            ],
+            [
+              {
+                "text": "```",
+                "range": {
+                  "startLineNumber": 95,
+                  "startColumn": 1,
+                  "endLineNumber": 95,
+                  "endColumn": 95
+                }
+              }
+            ],
+            [
+              {
+                "text": "",
+                "range": {
+                  "startLineNumber": 96,
+                  "startColumn": 1,
+                  "endLineNumber": 96,
+                  "endColumn": 102
+                }
+              }
+            ],
+            [
+              {
+                "text": "## 3. Modelo de datos",
+                "range": {
+                  "startLineNumber": 97,
+                  "startColumn": 1,
+                  "endLineNumber": 97,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "",
+                "range": {
+                  "startLineNumber": 98,
+                  "startColumn": 1,
+                  "endLineNumber": 98,
+                  "endColumn": 16
+                }
+              }
+            ],
+            [
+              {
+                "text": "El modelo de datos define las entidades principales, sus atributos y relaciones:",
+                "range": {
+                  "startLineNumber": 99,
+                  "startColumn": 1,
+                  "endLineNumber": 99,
+                  "endColumn": 42
+                }
+              }
+            ],
+            [
+              {
+                "text": "",
+                "range": {
+                  "startLineNumber": 100,
+                  "startColumn": 1,
+                  "endLineNumber": 100,
+                  "endColumn": 69
+                }
+              }
+            ],
+            [
+              {
+                "text": "| Entidad      | Atributos (nombre: tipo)                                  | Descripción |",
+                "range": {
+                  "startLineNumber": 101,
+                  "startColumn": 1,
+                  "endLineNumber": 101,
+                  "endColumn": 76
+                }
+              }
+            ],
+            [
+              {
+                "text": "|--------------|----------------------------------------------------------|-------------|",
+                "range": {
+                  "startLineNumber": 102,
+                  "startColumn": 1,
+                  "endLineNumber": 102,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "| Usuario      | id: UUID, nombre: string, email: string, rol: string      | Usuarios del sistema (reclutadores, managers, admin) |",
+                "range": {
+                  "startLineNumber": 103,
+                  "startColumn": 1,
+                  "endLineNumber": 103,
+                  "endColumn": 27
+                }
+              }
+            ],
+            [
+              {
+                "text": "| Vacante      | id: UUID, titulo: string, descripcion: string, estado: string, fecha_publicacion: date, usuario_id: UUID | Oferta de empleo publicada |",
+                "range": {
+                  "startLineNumber": 104,
+                  "startColumn": 1,
+                  "endLineNumber": 104,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "| Candidato    | id: UUID, nombre: string, email: string, cv_url: string, estado: string | Persona que aplica a una vacante |",
+                "range": {
+                  "startLineNumber": 105,
+                  "startColumn": 1,
+                  "endLineNumber": 105,
+                  "endColumn": 26
+                }
+              }
+            ],
+            [
+              {
+                "text": "| Aplicación   | id: UUID, candidato_id: UUID, vacante_id: UUID, fecha: date, estado: string | Relación entre candidato y vacante (postulación) |",
+                "range": {
+                  "startLineNumber": 106,
+                  "startColumn": 1,
+                  "endLineNumber": 106,
+                  "endColumn": 27
+                }
+              }
+            ],
+            [
+              {
+                "text": "| Evaluación   | id: UUID, aplicacion_id: UUID, usuario_id: UUID, puntaje: int, comentarios: string | Evaluaciones realizadas por usuarios a las aplicaciones |",
+                "range": {
+                  "startLineNumber": 107,
+                  "startColumn": 1,
+                  "endLineNumber": 107,
+                  "endColumn": 31
+                }
+              }
+            ],
+            [
+              {
+                "text": "",
+                "range": {
+                  "startLineNumber": 108,
+                  "startColumn": 1,
+                  "endLineNumber": 108,
+                  "endColumn": 40
+                }
+              }
+            ],
+            [
+              {
+                "text": "**Relaciones:**",
+                "range": {
+                  "startLineNumber": 109,
+                  "startColumn": 1,
+                  "endLineNumber": 109,
+                  "endColumn": 59
+                }
+              }
+            ],
+            [
+              {
+                "text": "- Un **Usuario** puede crear muchas **Vacantes** (1:N).",
+                "range": {
+                  "startLineNumber": 110,
+                  "startColumn": 1,
+                  "endLineNumber": 110,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "- Un **Candidato** puede aplicar a muchas **Vacantes** y una **Vacante** puede recibir muchas **Aplicaciones** (N:M vía Aplicación).",
+                "range": {
+                  "startLineNumber": 111,
+                  "startColumn": 1,
+                  "endLineNumber": 111,
+                  "endColumn": 12
+                }
+              }
+            ],
+            [
+              {
+                "text": "- Una **Aplicación** puede tener muchas **Evaluaciones** (por diferentes usuarios).",
+                "range": {
+                  "startLineNumber": 112,
+                  "startColumn": 1,
+                  "endLineNumber": 112,
+                  "endColumn": 10
+                }
+              }
+            ],
+            [
+              {
+                "text": "",
+                "range": {
+                  "startLineNumber": 113,
+                  "startColumn": 1,
+                  "endLineNumber": 113,
+                  "endColumn": 26
+                }
+              }
+            ],
+            [
+              {
+                "text": "## 4. Diseño de alto nivel",
+                "range": {
+                  "startLineNumber": 114,
+                  "startColumn": 1,
+                  "endLineNumber": 114,
+                  "endColumn": 25
+                }
+              }
+            ],
+            [
+              {
+                "text": "",
+                "range": {
+                  "startLineNumber": 115,
+                  "startColumn": 1,
+                  "endLineNumber": 115,
+                  "endColumn": 27
+                }
+              }
+            ],
+            [
+              {
+                "text": "El sistema LTI está compuesto por los siguientes módulos principales:",
+                "range": {
+                  "startLineNumber": 116,
+                  "startColumn": 1,
+                  "endLineNumber": 116,
+                  "endColumn": 38
+                }
+              }
+            ],
+            [
+              {
+                "text": "- **Frontend web:** Interfaz de usuario desarrollada en React o Vue, accesible desde cualquier navegador y dispositivo.",
+                "range": {
+                  "startLineNumber": 117,
+                  "startColumn": 1,
+                  "endLineNumber": 117,
+                  "endColumn": 21
+                }
+              }
+            ],
+            [
+              {
+                "text": "- **Backend API:** Lógica de negocio y servicios, desarrollada en Node.js o Python, expone endpoints REST para el frontend y para integraciones.",
+                "range": {
+                  "startLineNumber": 118,
+                  "startColumn": 1,
+                  "endLineNumber": 118,
+                  "endColumn": 16
+                }
+              }
+            ],
+            [
+              {
+                "text": "- **Base de datos relacional:** PostgreSQL almacena toda la información estructurada (usuarios, vacantes, candidatos, evaluaciones, etc.).",
+                "range": {
+                  "startLineNumber": 119,
+                  "startColumn": 1,
+                  "endLineNumber": 119,
+                  "endColumn": 26
+                }
+              }
+            ],
+            [
+              {
+                "text": "- **Integraciones externas:** Conexión con portales de empleo, servicios de email, calendarios y otras APIs externas.",
+                "range": {
+                  "startLineNumber": 120,
+                  "startColumn": 1,
+                  "endLineNumber": 120,
+                  "endColumn": 8
+                }
+              }
+            ],
+            [
+              {
+                "text": "",
+                "range": {
+                  "startLineNumber": 121,
+                  "startColumn": 1,
+                  "endLineNumber": 121,
+                  "endColumn": 4
+                }
+              }
+            ],
+            [
+              {
+                "text": "**Flujo general:**",
+                "range": {
+                  "startLineNumber": 122,
+                  "startColumn": 1,
+                  "endLineNumber": 122,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "1. El usuario interactúa con el frontend web.",
+                "range": {
+                  "startLineNumber": 123,
+                  "startColumn": 1,
+                  "endLineNumber": 123,
+                  "endColumn": 53
+                }
+              }
+            ],
+            [
+              {
+                "text": "2. El frontend consume la API del backend para todas las operaciones.",
+                "range": {
+                  "startLineNumber": 124,
+                  "startColumn": 1,
+                  "endLineNumber": 124,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "3. El backend gestiona la lógica, accede a la base de datos y a servicios externos.",
+                "range": {
+                  "startLineNumber": 125,
+                  "startColumn": 1,
+                  "endLineNumber": 125,
+                  "endColumn": 12
+                }
+              }
+            ],
+            [
+              {
+                "text": "4. Las integraciones permiten automatizar la publicación de vacantes y la comunicación.",
+                "range": {
+                  "startLineNumber": 126,
+                  "startColumn": 1,
+                  "endLineNumber": 126,
+                  "endColumn": 10
+                }
+              }
+            ],
+            [
+              {
+                "text": "",
+                "range": {
+                  "startLineNumber": 127,
+                  "startColumn": 1,
+                  "endLineNumber": 127,
+                  "endColumn": 24
+                }
+              }
+            ],
+            [
+              {
+                "text": "```plantuml",
+                "range": {
+                  "startLineNumber": 128,
+                  "startColumn": 1,
+                  "endLineNumber": 128,
+                  "endColumn": 23
+                }
+              }
+            ],
+            [
+              {
+                "text": "@startuml",
+                "range": {
+                  "startLineNumber": 129,
+                  "startColumn": 1,
+                  "endLineNumber": 129,
+                  "endColumn": 19
+                }
+              }
+            ],
+            [
+              {
+                "text": "node \"Frontend Web\" as FE",
+                "range": {
+                  "startLineNumber": 130,
+                  "startColumn": 1,
+                  "endLineNumber": 130,
+                  "endColumn": 22
+                }
+              }
+            ],
+            [
+              {
+                "text": "node \"Backend API\" as BE",
+                "range": {
+                  "startLineNumber": 131,
+                  "startColumn": 1,
+                  "endLineNumber": 131,
+                  "endColumn": 24
+                }
+              }
+            ],
+            [
+              {
+                "text": "node \"Base de Datos\" as DB",
+                "range": {
+                  "startLineNumber": 132,
+                  "startColumn": 1,
+                  "endLineNumber": 132,
+                  "endColumn": 25
+                }
+              }
+            ],
+            [
+              {
+                "text": "cloud \"Integraciones Externas\" as EXT",
+                "range": {
+                  "startLineNumber": 133,
+                  "startColumn": 1,
+                  "endLineNumber": 133,
+                  "endColumn": 24
+                }
+              }
+            ],
+            [
+              {
+                "text": "FE --> BE : REST API (JSON)",
+                "range": {
+                  "startLineNumber": 134,
+                  "startColumn": 1,
+                  "endLineNumber": 134,
+                  "endColumn": 23
+                }
+              }
+            ],
+            [
+              {
+                "text": "BE --> DB : SQL/ORM",
+                "range": {
+                  "startLineNumber": 135,
+                  "startColumn": 1,
+                  "endLineNumber": 135,
+                  "endColumn": 2
+                }
+              }
+            ],
+            [
+              {
+                "text": "BE --> EXT : API externas (portales, email, etc.)",
+                "range": {
+                  "startLineNumber": 136,
+                  "startColumn": 1,
+                  "endLineNumber": 136,
+                  "endColumn": 18
+                }
+              }
+            ],
+            [
+              {
+                "text": "@enduml",
+                "range": {
+                  "startLineNumber": 137,
+                  "startColumn": 1,
+                  "endLineNumber": 137,
+                  "endColumn": 21
+                }
+              }
+            ],
+            [
+              {
+                "text": "```",
+                "range": {
+                  "startLineNumber": 138,
+                  "startColumn": 1,
+                  "endLineNumber": 138,
+                  "endColumn": 19
+                }
+              }
+            ],
+            [
+              {
+                "text": "",
+                "range": {
+                  "startLineNumber": 139,
+                  "startColumn": 1,
+                  "endLineNumber": 139,
+                  "endColumn": 37
+                }
+              }
+            ],
+            [
+              {
+                "text": "## 5. Diagrama C4 (Nivel de Componente: Backend API)",
+                "range": {
+                  "startLineNumber": 140,
+                  "startColumn": 1,
+                  "endLineNumber": 140,
+                  "endColumn": 36
+                }
+              }
+            ],
+            [
+              {
+                "text": "",
+                "range": {
+                  "startLineNumber": 141,
+                  "startColumn": 1,
+                  "endLineNumber": 141,
+                  "endColumn": 39
+                }
+              }
+            ],
+            [
+              {
+                "text": "A continuación se detalla la arquitectura interna del Backend API, mostrando los principales controladores y servicios:",
+                "range": {
+                  "startLineNumber": 142,
+                  "startColumn": 1,
+                  "endLineNumber": 142,
+                  "endColumn": 8
+                }
+              }
+            ],
+            [
+              {
+                "text": "",
+                "range": {
+                  "startLineNumber": 143,
+                  "startColumn": 1,
+                  "endLineNumber": 143,
+                  "endColumn": 4
+                }
+              }
+            ],
+            [
+              {
+                "text": "```plantuml",
+                "range": {
+                  "startLineNumber": 144,
+                  "startColumn": 1,
+                  "endLineNumber": 144,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n@startuml",
+                "range": {
+                  "startLineNumber": 145,
+                  "startColumn": 1,
+                  "endLineNumber": 145,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n!define RECTANGLE class",
+                "range": {
+                  "startLineNumber": 146,
+                  "startColumn": 1,
+                  "endLineNumber": 146,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\nRECTANGLE BackendAPI {",
+                "range": {
+                  "startLineNumber": 147,
+                  "startColumn": 1,
+                  "endLineNumber": 147,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n  + AuthController         // Gestión de autenticación y permisos",
+                "range": {
+                  "startLineNumber": 148,
+                  "startColumn": 1,
+                  "endLineNumber": 148,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n  + VacanteController     // CRUD de vacantes",
+                "range": {
+                  "startLineNumber": 149,
+                  "startColumn": 1,
+                  "endLineNumber": 149,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n  + CandidatoController   // CRUD de candidatos",
+                "range": {
+                  "startLineNumber": 150,
+                  "startColumn": 1,
+                  "endLineNumber": 150,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n  + EvaluacionController  // Gestión de evaluaciones",
+                "range": {
+                  "startLineNumber": 151,
+                  "startColumn": 1,
+                  "endLineNumber": 151,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n  + NotificacionService   // Envío de emails y notificaciones",
+                "range": {
+                  "startLineNumber": 152,
+                  "startColumn": 1,
+                  "endLineNumber": 152,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n  + IntegracionService    // Conexión con portales y servicios externos",
+                "range": {
+                  "startLineNumber": 153,
+                  "startColumn": 1,
+                  "endLineNumber": 153,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n}",
+                "range": {
+                  "startLineNumber": 154,
+                  "startColumn": 1,
+                  "endLineNumber": 154,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\nclass BaseDeDatos",
+                "range": {
+                  "startLineNumber": 155,
+                  "startColumn": 1,
+                  "endLineNumber": 155,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\nclass PortalesEmpleo",
+                "range": {
+                  "startLineNumber": 156,
+                  "startColumn": 1,
+                  "endLineNumber": 156,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\nclass EmailService",
+                "range": {
+                  "startLineNumber": 157,
+                  "startColumn": 1,
+                  "endLineNumber": 157,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\nBackendAPI --> BaseDeDatos : ORM/SQL",
+                "range": {
+                  "startLineNumber": 158,
+                  "startColumn": 1,
+                  "endLineNumber": 158,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\nBackendAPI --> PortalesEmpleo : API",
+                "range": {
+                  "startLineNumber": 159,
+                  "startColumn": 1,
+                  "endLineNumber": 159,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\nBackendAPI --> EmailService : SMTP/API",
+                "range": {
+                  "startLineNumber": 160,
+                  "startColumn": 1,
+                  "endLineNumber": 160,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n@enduml",
+                "range": {
+                  "startLineNumber": 161,
+                  "startColumn": 1,
+                  "endLineNumber": 161,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n```",
+                "range": {
+                  "startLineNumber": 162,
+                  "startColumn": 1,
+                  "endLineNumber": 162,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "range": {
+                  "startLineNumber": 163,
+                  "startColumn": 1,
+                  "endLineNumber": 163,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\nCada componente está desacoplado para facilitar la escalabilidad y el mantenimiento. Los servicios de integración y notificación permiten automatizar procesos clave y mejorar la experiencia tanto de usuarios internos como de candidatos.",
+                "range": {
+                  "startLineNumber": 164,
+                  "startColumn": 1,
+                  "endLineNumber": 164,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "range": {
+                  "startLineNumber": 165,
+                  "startColumn": 1,
+                  "endLineNumber": 165,
+                  "endColumn": 1
+                }
+              }
+            ],
+            []
+          ],
+          "done": true
+        },
+        {
+          "value": "La documentación en `LTI-WC.md` ahora es mucho más descriptiva y detallada en cada sección:\n\n- Se explica el valor añadido y las ventajas competitivas con ejemplos claros.\n- Cada función principal está descrita con su propósito y beneficio.\n- Los casos de uso incluyen una breve narrativa para entender el flujo y el objetivo.\n- El modelo de datos detalla el significado de cada entidad y relación.\n- El diseño de alto nivel describe el flujo general y la función de cada módulo.\n- El diagrama C4 incluye comentarios sobre la responsabilidad de cada componente.\n\nEsto facilita la comprensión tanto para perfiles técnicos como de negocio. ¿Te gustaría profundizar en algún aspecto específico o agregar ejemplos de automatizaciones y flujos?",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/OneD/BI/OneDrive - Farmaenlace/Datos Portatil/Documentos/V220/Curso/2025/Lidr/AI4Devs/Ejercicios/4/AI4Devs-design-1-202506/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "responseId": "response_73ab33a2-89cd-43e9-8d36-bf8803ed5e78",
+      "result": {
+        "timings": {
+          "firstProgress": 1995,
+          "totalElapsed": 40852
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "renderedUserMessage": [
+            {
+              "type": 1,
+              "text": "<attachments>\n<attachment id=\"file:LTI-WC.md\">\nUser's current visible code, this should be the main focus:\nExcerpt from LTI-WC.md, lines 27 to 62:\n````markdown\n- Dificultad para filtrar candidatos\r\n|Solución|\r\n- Automatización y filtros inteligentes\r\n- Colaboración en tiempo real\r\n- Analítica avanzada\r\n|Métricas Clave|\r\n- Tiempo de contratación\r\n- Tasa de conversión de candidatos\r\n- Satisfacción de usuarios\r\n|Propuesta de Valor|\r\n- ATS eficiente, colaborativo y automatizado\r\n|Ventaja Competitiva|\r\n- Integración, UX superior, automatización\r\n|Canales|\r\n- Web, integraciones, API\r\n|Segmentos de Clientes|\r\n- Empresas de todos los sectores\r\n|Estructura de Costos|\r\n- Desarrollo, soporte, marketing\r\n|Flujos de Ingresos|\r\n- Suscripción SaaS, servicios premium\r\n@enduml\r\n```\r\n\r\n## 2. Casos de uso principales\r\n\r\n### Caso de Uso 1: Publicar Vacante y Recibir Candidatos\r\n```plantuml\r\n@startuml\r\nactor Reclutador\r\nactor Candidato\r\nReclutador -> (Publicar Vacante)\r\n(Candidato) --> (Aplicar a Vacante)\r\n(Publicar Vacante) --> (Recibir Candidatos)\r\n@enduml\r\n```\n````\n</attachment>\n<attachment filePath=\"c:\\\\OneD\\\\BI\\\\OneDrive - Farmaenlace\\\\Datos Portatil\\\\Documentos\\\\V220\\\\Curso\\\\2025\\\\Lidr\\\\AI4Devs\\\\Ejercicios\\\\4\\\\AI4Devs-design-1-202506\\\\LTI-WC\\\\LTI-WC.md\">\nUser's active file for additional context:\n````markdown\n# LTI - Applicant Tracking System (ATS) Generalista\r\n\r\n## 1. Descripción breve, valor añadido y ventajas competitivas\r\n\r\nLTI es un sistema ATS (Applicant Tracking System) diseñado para optimizar y automatizar el proceso de reclutamiento en empresas de cualquier sector. Su objetivo es aumentar la eficiencia de los departamentos de RRHH, mejorar la colaboración en tiempo real entre reclutadores y managers, y ofrecer automatizaciones inteligentes que reduzcan tareas manuales.\r\n\r\n**Valor añadido y ventajas competitivas:**\r\n- Automatización avanzada de tareas repetitivas (filtros automáticos, notificaciones, recordatorios).\r\n- Colaboración en tiempo real: comentarios, evaluaciones y decisiones compartidas entre reclutadores y managers.\r\n- Integración con portales de empleo y redes sociales.\r\n- Analítica avanzada y reportes personalizables.\r\n- Experiencia de usuario intuitiva y adaptable.\r\n\r\n**Funciones principales:**\r\n- Publicación y gestión de vacantes.\r\n- Recepción y filtrado automático de candidatos.\r\n- Gestión colaborativa de entrevistas y evaluaciones.\r\n- Comunicación automatizada con candidatos.\r\n- Panel de control con métricas clave.\r\n\r\n### Lean Canvas (PlantUML)\r\n```plantuml\r\n@startuml\r\n|Problema|\r\n- Procesos manuales y lentos en RRHH\r\n- Falta de colaboración entre equipos\r\n- Dificultad para filtrar candidatos\r\n|Solución|\r\n- Automatización y filtros inteligentes\r\n- Colaboración en tiempo real\r\n- Analítica avanzada\r\n|Métricas Clave|\r\n- Tiempo de contratación\r\n- Tasa de conversión de candidatos\r\n- Satisfacción de usuarios\r\n|Propuesta de Valor|\r\n- ATS eficiente, colaborativo y automatizado\r\n|Ventaja Competitiva|\r\n- Integración, UX superior, automatización\r\n|Canales|\r\n- Web, integraciones, API\r\n|Segmentos de Clientes|\r\n- Empresas de todos los sectores\r\n|Estructura de Costos|\r\n- Desarrollo, soporte, marketing\r\n|Flujos de Ingresos|\r\n- Suscripción SaaS, servicios premium\r\n@enduml\r\n```\r\n\r\n## 2. Casos de uso principales\r\n\r\n### Caso de Uso 1: Publicar Vacante y Recibir Candidatos\r\n```plantuml\r\n@startuml\r\nactor Reclutador\r\nactor Candidato\r\nReclutador -> (Publicar Vacante)\r\n(Candidato) --> (Aplicar a Vacante)\r\n(Publicar Vacante) --> (Recibir Candidatos)\r\n@enduml\r\n```\r\n\r\n### Caso de Uso 2: Evaluar y Filtrar Candidatos\r\n```plantuml\r\n@startuml\r\nactor Reclutador\r\nactor Manager\r\n(Reclutador) --> (Filtrar Candidatos)\r\n(Manager) --> (Evaluar Candidato)\r\n(Filtrar Candidatos) --> (Evaluar Candidato)\r\n@enduml\r\n```\r\n\r\n### Caso de Uso 3: Comunicación y Decisión Colaborativa\r\n```plantuml\r\n@startuml\r\nactor Reclutador\r\nactor Manager\r\nactor Candidato\r\n(Reclutador) --> (Enviar Mensaje)\r\n(Manager) --> (Enviar Feedback)\r\n(Enviar Mensaje) --> (Candidato)\r\n(Enviar Feedback) --> (Reclutador)\r\n@enduml\r\n```\r\n\r\n## 3. Modelo de datos\r\n\r\n| Entidad      | Atributos (nombre: tipo)                                  |\r\n|--------------|----------------------------------------------------------|\r\n| Usuario      | id: UUID, nombre: string, email: string, rol: string      |\r\n| Vacante      | id: UUID, titulo: string, descripcion: string, estado: string, fecha_publicacion: date, usuario_id: UUID |\r\n| Candidato    | id: UUID, nombre: string, email: string, cv_url: string, estado: string |\r\n| Aplicación   | id: UUID, candidato_id: UUID, vacante_id: UUID, fecha: date, estado: string |\r\n| Evaluación   | id: UUID, aplicacion_id: UUID, usuario_id: UUID, puntaje: int, comentarios: string |\r\n\r\n**Relaciones:**\r\n- Un Usuario puede crear muchas Vacantes.\r\n- Un Candidato puede aplicar a muchas Vacantes (N:M vía Aplicación).\r\n- Una Aplicación puede tener muchas Evaluaciones (por diferentes usuarios).\r\n\r\n## 4. Diseño de alto nivel\r\n\r\nEl sistema se compone de:\r\n- Frontend web (React/Vue)\r\n- Backend API (Node.js/Python)\r\n- Base de datos relacional (PostgreSQL)\r\n- Integraciones externas (portales de empleo, email, etc.)\r\n\r\n```plantuml\r\n@startuml\r\nnode \"Frontend Web\" as FE\r\nnode \"Backend API\" as BE\r\nnode \"Base de Datos\" as DB\r\ncloud \"Integraciones Externas\" as EXT\r\nFE --> BE : REST API\r\nBE --> DB : SQL\r\nBE --> EXT : API externas\r\n@enduml\r\n```\r\n\r\n## 5. Diagrama C4 (Nivel de Componente: Backend API)\r\n\r\n```plantuml\r\n@startuml\r\n!define RECTANGLE class\r\nRECTANGLE BackendAPI {\r\n  + AuthController\r\n  + VacanteController\r\n  + CandidatoController\r\n  + EvaluacionController\r\n  + NotificacionService\r\n  + IntegracionService\r\n}\r\nclass BaseDeDatos\r\nclass PortalesEmpleo\r\nclass EmailService\r\nBackendAPI --> BaseDeDatos : ORM/SQL\r\nBackendAPI --> PortalesEmpleo : API\r\nBackendAPI --> EmailService : SMTP/API\r\n@enduml\r\n```\n````\n</attachment>\n\n</attachments>\n<context>\nThe current date is 7 de julio de 2025.\n</context>\n<editorContext>\nThe user's current file is c:\\OneD\\BI\\OneDrive - Farmaenlace\\Datos Portatil\\Documentos\\V220\\Curso\\2025\\Lidr\\AI4Devs\\Ejercicios\\4\\AI4Devs-design-1-202506\\LTI-WC\\LTI-WC.md. \n</editorContext>\n<reminder>\nYou are an agent - you must keep going until the user's query is completely resolved, before ending your turn and yielding back to the user. ONLY terminate your turn when you are sure that the problem is solved, or you absolutely cannot continue.\nYou take action when possible- the user is expecting YOU to take action and go to work for them. Don't ask unnecessary questions about the details if you can simply DO something useful instead.\nWhen using the insert_edit_into_file tool, avoid repeating existing code, instead use a line comment with \\`...existing code...\\` to represent regions of unchanged code.\n</reminder>\n<userRequest>\npuedes ser más descriptivo en cada uno de los puntos, es para poder entender cada uno de los puntos. (See <attachments> above for file contents. You may not need to search or read the file again.)\n</userRequest>\n"
+            },
+            {
+              "type": 3,
+              "cacheType": "ephemeral"
+            }
+          ],
+          "toolCallRounds": [
+            {
+              "response": "Voy a enriquecer la documentación en `LTI-WC.md` para que cada punto tenga una explicación más detallada y comprensible, incluyendo descripciones claras de las ventajas, funciones, casos de uso, modelo de datos, arquitectura y el diagrama C4. Esto facilitará la comprensión del sistema tanto a nivel técnico como de negocio.\n\nProcedo a mejorar y ampliar cada sección. ",
+              "toolCalls": [
+                {
+                  "name": "insert_edit_into_file",
+                  "arguments": "{\"code\":\"# LTI - Applicant Tracking System (ATS) Generalista\\n\\n## 1. Descripción breve, valor añadido y ventajas competitivas\\n\\nLTI es un sistema ATS (Applicant Tracking System) generalista, diseñado para digitalizar y optimizar el proceso de reclutamiento en empresas de cualquier sector y tamaño. Su objetivo es centralizar todas las etapas del ciclo de vida de una vacante, desde la publicación hasta la contratación, permitiendo a los equipos de RRHH y managers trabajar de forma más eficiente y colaborativa.\\n\\n**Valor añadido y ventajas competitivas:**\\n- **Automatización avanzada:** LTI automatiza tareas repetitivas como el filtrado de CVs, envío de notificaciones y recordatorios, y programación de entrevistas, permitiendo a los equipos centrarse en tareas estratégicas.\\n- **Colaboración en tiempo real:** Permite que reclutadores y managers puedan comentar, evaluar y tomar decisiones de forma conjunta y transparente sobre los candidatos, todo en una misma plataforma.\\n- **Integración con portales y redes:** LTI se conecta con portales de empleo, LinkedIn y otros canales, centralizando la recepción de candidatos y facilitando la publicación de vacantes.\\n- **Analítica avanzada:** Ofrece dashboards y reportes personalizables para medir la eficiencia del proceso, identificar cuellos de botella y mejorar la toma de decisiones.\\n- **Experiencia de usuario superior:** Interfaz intuitiva, adaptable a distintos roles y dispositivos, con flujos guiados y personalizables.\\n\\n**Funciones principales:**\\n- **Publicación y gestión de vacantes:** Crear, editar y publicar vacantes en múltiples portales desde un solo lugar.\\n- **Recepción y filtrado automático de candidatos:** Los candidatos se centralizan y se filtran automáticamente según criterios definidos (palabras clave, experiencia, etc.).\\n- **Gestión colaborativa de entrevistas y evaluaciones:** Permite agendar entrevistas, asignar evaluadores y registrar feedback de manera estructurada.\\n- **Comunicación automatizada:** Envío de emails y notificaciones automáticas a candidatos en cada etapa del proceso.\\n- **Panel de control y métricas:** Visualización de KPIs como tiempo de contratación, tasa de conversión, fuentes de candidatos, etc.\\n\\n### Lean Canvas (PlantUML)\\n```plantuml\\n@startuml\\n|Problema|\\n- Procesos manuales y lentos en RRHH\\n- Falta de colaboración entre equipos\\n- Dificultad para filtrar candidatos\\n|Solución|\\n- Automatización y filtros inteligentes para reducir tareas manuales\\n- Colaboración en tiempo real y visibilidad compartida\\n- Analítica avanzada para la toma de decisiones\\n|Métricas Clave|\\n- Tiempo de contratación\\n- Tasa de conversión de candidatos\\n- Satisfacción de usuarios (NPS)\\n|Propuesta de Valor|\\n- ATS eficiente, colaborativo y automatizado que ahorra tiempo y mejora la calidad de contratación\\n|Ventaja Competitiva|\\n- Integración con múltiples canales, UX superior, automatización inteligente\\n|Canales|\\n- Web, integraciones, API, portales de empleo\\n|Segmentos de Clientes|\\n- Empresas de todos los sectores y tamaños\\n|Estructura de Costos|\\n- Desarrollo, soporte, marketing, infraestructura cloud\\n|Flujos de Ingresos|\\n- Suscripción SaaS, servicios premium, integraciones avanzadas\\n@enduml\\n```\\n\\n## 2. Casos de uso principales\\n\\nA continuación se describen los tres casos de uso más relevantes del sistema, con su diagrama asociado:\\n\\n### Caso de Uso 1: Publicar Vacante y Recibir Candidatos\\n**Descripción:** El reclutador crea y publica una vacante en el sistema, que automáticamente la distribuye en portales de empleo y redes sociales. Los candidatos pueden postularse desde cualquier canal y sus datos llegan centralizados al sistema.\\n```plantuml\\n@startuml\\nactor Reclutador\\nactor Candidato\\nReclutador -> (Publicar Vacante) : Crea y publica\\n(Publicar Vacante) --> (Difusión en portales)\\n(Candidato) --> (Aplicar a Vacante) : Envía CV\\n(Aplicar a Vacante) --> (Recibir Candidatos)\\n@enduml\\n```\\n\\n### Caso de Uso 2: Evaluar y Filtrar Candidatos\\n**Descripción:** El reclutador utiliza filtros automáticos para preseleccionar candidatos. Los managers pueden acceder a los perfiles, evaluarlos y dejar comentarios o puntuaciones. El proceso es colaborativo y transparente.\\n```plantuml\\n@startuml\\nactor Reclutador\\nactor Manager\\n(Reclutador) --> (Filtrar Candidatos) : Usa filtros automáticos\\n(Filtrar Candidatos) --> (Lista Preseleccionada)\\n(Manager) --> (Evaluar Candidato) : Revisa y puntúa\\n(Evaluar Candidato) --> (Lista Preseleccionada)\\n@enduml\\n```\\n\\n### Caso de Uso 3: Comunicación y Decisión Colaborativa\\n**Descripción:** Reclutadores y managers pueden comunicarse entre sí y con los candidatos desde la plataforma, enviar mensajes, feedback y notificaciones automáticas. La decisión final de contratación se toma de forma colaborativa y queda registrada.\\n```plantuml\\n@startuml\\nactor Reclutador\\nactor Manager\\nactor Candidato\\n(Reclutador) --> (Enviar Mensaje) : Comunica avances\\n(Manager) --> (Enviar Feedback) : Da retroalimentación\\n(Enviar Mensaje) --> (Candidato)\\n(Enviar Feedback) --> (Reclutador)\\n(Reclutador) --> (Decisión Final) : Contratación\\n(Manager) --> (Decisión Final)\\n@enduml\\n```\\n\\n## 3. Modelo de datos\\n\\nEl modelo de datos define las entidades principales, sus atributos y relaciones:\\n\\n| Entidad      | Atributos (nombre: tipo)                                  | Descripción |\\n|--------------|----------------------------------------------------------|-------------|\\n| Usuario      | id: UUID, nombre: string, email: string, rol: string      | Usuarios del sistema (reclutadores, managers, admin) |\\n| Vacante      | id: UUID, titulo: string, descripcion: string, estado: string, fecha_publicacion: date, usuario_id: UUID | Oferta de empleo publicada |\\n| Candidato    | id: UUID, nombre: string, email: string, cv_url: string, estado: string | Persona que aplica a una vacante |\\n| Aplicación   | id: UUID, candidato_id: UUID, vacante_id: UUID, fecha: date, estado: string | Relación entre candidato y vacante (postulación) |\\n| Evaluación   | id: UUID, aplicacion_id: UUID, usuario_id: UUID, puntaje: int, comentarios: string | Evaluaciones realizadas por usuarios a las aplicaciones |\\n\\n**Relaciones:**\\n- Un **Usuario** puede crear muchas **Vacantes** (1:N).\\n- Un **Candidato** puede aplicar a muchas **Vacantes** y una **Vacante** puede recibir muchas **Aplicaciones** (N:M vía Aplicación).\\n- Una **Aplicación** puede tener muchas **Evaluaciones** (por diferentes usuarios).\\n\\n## 4. Diseño de alto nivel\\n\\nEl sistema LTI está compuesto por los siguientes módulos principales:\\n- **Frontend web:** Interfaz de usuario desarrollada en React o Vue, accesible desde cualquier navegador y dispositivo.\\n- **Backend API:** Lógica de negocio y servicios, desarrollada en Node.js o Python, expone endpoints REST para el frontend y para integraciones.\\n- **Base de datos relacional:** PostgreSQL almacena toda la información estructurada (usuarios, vacantes, candidatos, evaluaciones, etc.).\\n- **Integraciones externas:** Conexión con portales de empleo, servicios de email, calendarios y otras APIs externas.\\n\\n**Flujo general:**\\n1. El usuario interactúa con el frontend web.\\n2. El frontend consume la API del backend para todas las operaciones.\\n3. El backend gestiona la lógica, accede a la base de datos y a servicios externos.\\n4. Las integraciones permiten automatizar la publicación de vacantes y la comunicación.\\n\\n```plantuml\\n@startuml\\nnode \\\"Frontend Web\\\" as FE\\nnode \\\"Backend API\\\" as BE\\nnode \\\"Base de Datos\\\" as DB\\ncloud \\\"Integraciones Externas\\\" as EXT\\nFE --> BE : REST API (JSON)\\nBE --> DB : SQL/ORM\\nBE --> EXT : API externas (portales, email, etc.)\\n@enduml\\n```\\n\\n## 5. Diagrama C4 (Nivel de Componente: Backend API)\\n\\nA continuación se detalla la arquitectura interna del Backend API, mostrando los principales controladores y servicios:\\n\\n```plantuml\\n@startuml\\n!define RECTANGLE class\\nRECTANGLE BackendAPI {\\n  + AuthController         // Gestión de autenticación y permisos\\n  + VacanteController     // CRUD de vacantes\\n  + CandidatoController   // CRUD de candidatos\\n  + EvaluacionController  // Gestión de evaluaciones\\n  + NotificacionService   // Envío de emails y notificaciones\\n  + IntegracionService    // Conexión con portales y servicios externos\\n}\\nclass BaseDeDatos\\nclass PortalesEmpleo\\nclass EmailService\\nBackendAPI --> BaseDeDatos : ORM/SQL\\nBackendAPI --> PortalesEmpleo : API\\nBackendAPI --> EmailService : SMTP/API\\n@enduml\\n```\\n\\nCada componente está desacoplado para facilitar la escalabilidad y el mantenimiento. Los servicios de integración y notificación permiten automatizar procesos clave y mejorar la experiencia tanto de usuarios internos como de candidatos.\\n\",\"explanation\":\"Ampliación y enriquecimiento de cada sección para que la documentación sea más descriptiva y comprensible, con explicaciones detalladas y ejemplos en cada punto.\",\"filePath\":\"c:\\\\OneD\\\\BI\\\\OneDrive - Farmaenlace\\\\Datos Portatil\\\\Documentos\\\\V220\\\\Curso\\\\2025\\\\Lidr\\\\AI4Devs\\\\Ejercicios\\\\4\\\\AI4Devs-design-1-202506\\\\LTI-WC\\\\LTI-WC.md\"}",
+                  "id": "call_Q7N22hmsIX3azUTThi616HI1__vscode-1751894099538"
+                }
+              ],
+              "toolInputRetry": 0,
+              "id": "d730c35f-829a-4018-bb94-88e9fc40002e"
+            },
+            {
+              "response": "La documentación en `LTI-WC.md` ahora es mucho más descriptiva y detallada en cada sección:\n\n- Se explica el valor añadido y las ventajas competitivas con ejemplos claros.\n- Cada función principal está descrita con su propósito y beneficio.\n- Los casos de uso incluyen una breve narrativa para entender el flujo y el objetivo.\n- El modelo de datos detalla el significado de cada entidad y relación.\n- El diseño de alto nivel describe el flujo general y la función de cada módulo.\n- El diagrama C4 incluye comentarios sobre la responsabilidad de cada componente.\n\nEsto facilita la comprensión tanto para perfiles técnicos como de negocio. ¿Te gustaría profundizar en algún aspecto específico o agregar ejemplos de automatizaciones y flujos?",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "930130d1-a74a-4cda-8e87-5439c465ccb8"
+            }
+          ],
+          "toolCallResults": {
+            "call_Q7N22hmsIX3azUTThi616HI1__vscode-1751894099538": {
+              "$mid": 20,
+              "content": [
+                {
+                  "$mid": 22,
+                  "value": {
+                    "node": {
+                      "type": 1,
+                      "ctor": 2,
+                      "ctorName": "Zm",
+                      "children": [
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "The following files were successfully edited:",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "\n",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "c:\\OneD\\BI\\OneDrive - Farmaenlace\\Datos Portatil\\Documentos\\V220\\Curso\\2025\\Lidr\\AI4Devs\\Ejercicios\\4\\AI4Devs-design-1-202506\\LTI-WC\\LTI-WC.md",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "\n",
+                          "lineBreakBefore": false
+                        }
+                      ],
+                      "props": {},
+                      "references": []
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "modelMessageId": "6108580d-2626-4faf-9b24-e9dc1c77f3bf",
+          "responseId": "df7c1228-03f9-4d73-a5a3-eb715d583f9f",
+          "sessionId": "66a37dc5-d80c-403e-a1bd-55b88d30097d",
+          "agentId": "github.copilot.editsAgent"
+        }
+      },
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.editsAgent",
+        "description": "Edición de archivos en el área de trabajo en modo agente",
+        "when": "config.chat.agent.enabled && !chatAgentModeDisallowed",
+        "metadata": {
+          "themeIcon": {
+            "id": "tools"
+          },
+          "hasFollowups": false,
+          "supportIssueReporting": false
+        },
+        "name": "agent",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "agent"
+        ],
+        "slashCommands": [
+          {
+            "name": "list"
+          }
+        ],
+        "disambiguation": []
+      },
+      "contentReferences": [],
+      "codeCitations": [],
+      "timestamp": 1751897488383,
+      "editedFileEvents": [
+        {
+          "eventKind": 1,
+          "uri": {
+            "$mid": 1,
+            "fsPath": "c:\\OneD\\BI\\OneDrive - Farmaenlace\\Datos Portatil\\Documentos\\V220\\Curso\\2025\\Lidr\\AI4Devs\\Ejercicios\\4\\AI4Devs-design-1-202506\\LTI-WC\\prompts.md",
+            "_sep": 1,
+            "external": "file:///c%3A/OneD/BI/OneDrive%20-%20Farmaenlace/Datos%20Portatil/Documentos/V220/Curso/2025/Lidr/AI4Devs/Ejercicios/4/AI4Devs-design-1-202506/LTI-WC/prompts.md",
+            "path": "/c:/OneD/BI/OneDrive - Farmaenlace/Datos Portatil/Documentos/V220/Curso/2025/Lidr/AI4Devs/Ejercicios/4/AI4Devs-design-1-202506/LTI-WC/prompts.md",
+            "scheme": "file"
+          }
+        }
+      ]
+    },
+    {
+      "requestId": "request_aa3da947-43b4-4129-bc03-ee998ebc4ffb",
+      "message": {
+        "text": "te has olvidado de ir incluyendo los prompts utilizados en el archivo prompts.md",
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 80
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 81
+            },
+            "text": "te has olvidado de ir incluyendo los prompts utilizados en el archivo prompts.md",
+            "kind": "text"
+          }
+        ]
+      },
+      "variableData": {
+        "variables": [
+          {
+            "kind": "file",
+            "id": "vscode.implicit.viewport",
+            "name": "file:prompts.md",
+            "value": {
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\OneD\\BI\\OneDrive - Farmaenlace\\Datos Portatil\\Documentos\\V220\\Curso\\2025\\Lidr\\AI4Devs\\Ejercicios\\4\\AI4Devs-design-1-202506\\LTI-WC\\prompts.md",
+                "_sep": 1,
+                "external": "file:///c%3A/OneD/BI/OneDrive%20-%20Farmaenlace/Datos%20Portatil/Documentos/V220/Curso/2025/Lidr/AI4Devs/Ejercicios/4/AI4Devs-design-1-202506/LTI-WC/prompts.md",
+                "path": "/c:/OneD/BI/OneDrive - Farmaenlace/Datos Portatil/Documentos/V220/Curso/2025/Lidr/AI4Devs/Ejercicios/4/AI4Devs-design-1-202506/LTI-WC/prompts.md",
+                "scheme": "file"
+              },
+              "range": {
+                "startLineNumber": 1,
+                "startColumn": 1,
+                "endLineNumber": 7,
+                "endColumn": 1
+              }
+            },
+            "modelDescription": "User's current visible code"
+          }
+        ]
+      },
+      "response": [
+        {
+          "kind": "toolInvocationSerialized",
+          "presentation": "hidden",
+          "invocationMessage": "Usando \"Editar archivo\"",
+          "isConfirmed": true,
+          "isComplete": true,
+          "toolCallId": "6300b21c-2e4b-4d7c-96ab-b1a5c9d8af76",
+          "toolId": "copilot_insertEdit"
+        },
+        {
+          "kind": "toolInvocationSerialized",
+          "presentation": "hidden",
+          "invocationMessage": "Usando \"\"",
+          "isConfirmed": true,
+          "isComplete": true,
+          "toolCallId": "578c9069-f56a-418f-8817-abd4cbddecbd",
+          "toolId": "vscode_editFile_internal"
+        },
+        {
+          "value": "\n````\n",
+          "isTrusted": false,
+          "supportThemeIcons": false,
+          "supportHtml": false
+        },
+        {
+          "id": "3d6cd88a-d31a-42bc-94c6-e1ec9154aab7",
+          "kind": "undoStop"
+        },
+        {
+          "kind": "codeblockUri",
+          "uri": {
+            "$mid": 1,
+            "fsPath": "c:\\OneD\\BI\\OneDrive - Farmaenlace\\Datos Portatil\\Documentos\\V220\\Curso\\2025\\Lidr\\AI4Devs\\Ejercicios\\4\\AI4Devs-design-1-202506\\LTI-WC\\prompts.md",
+            "_sep": 1,
+            "external": "file:///c%3A/OneD/BI/OneDrive%20-%20Farmaenlace/Datos%20Portatil/Documentos/V220/Curso/2025/Lidr/AI4Devs/Ejercicios/4/AI4Devs-design-1-202506/LTI-WC/prompts.md",
+            "path": "/c:/OneD/BI/OneDrive - Farmaenlace/Datos Portatil/Documentos/V220/Curso/2025/Lidr/AI4Devs/Ejercicios/4/AI4Devs-design-1-202506/LTI-WC/prompts.md",
+            "scheme": "file"
+          },
+          "isEdit": true
+        },
+        {
+          "value": "\n````\n",
+          "isTrusted": false,
+          "supportThemeIcons": false,
+          "supportHtml": false
+        },
+        {
+          "kind": "textEditGroup",
+          "uri": {
+            "$mid": 1,
+            "fsPath": "c:\\OneD\\BI\\OneDrive - Farmaenlace\\Datos Portatil\\Documentos\\V220\\Curso\\2025\\Lidr\\AI4Devs\\Ejercicios\\4\\AI4Devs-design-1-202506\\LTI-WC\\prompts.md",
+            "_sep": 1,
+            "external": "file:///c%3A/OneD/BI/OneDrive%20-%20Farmaenlace/Datos%20Portatil/Documentos/V220/Curso/2025/Lidr/AI4Devs/Ejercicios/4/AI4Devs-design-1-202506/LTI-WC/prompts.md",
+            "path": "/c:/OneD/BI/OneDrive - Farmaenlace/Datos Portatil/Documentos/V220/Curso/2025/Lidr/AI4Devs/Ejercicios/4/AI4Devs-design-1-202506/LTI-WC/prompts.md",
+            "scheme": "file"
+          },
+          "edits": [
+            [],
+            [
+              {
+                "text": "# Prompts utilizados para la documentación del sistema ATS LTI",
+                "range": {
+                  "startLineNumber": 1,
+                  "startColumn": 1,
+                  "endLineNumber": 1,
+                  "endColumn": 63
+                }
+              }
+            ],
+            [
+              {
+                "text": "",
+                "range": {
+                  "startLineNumber": 2,
+                  "startColumn": 1,
+                  "endLineNumber": 2,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "1. \"Quiero que seas un product manager donde se va a construir un sistema ATS (Applicant-Tracking System).\\n\\nSe necesita diseñar y documentar un sistema de software siguiendo las fases de investigación y análisis, casos de uso, modelado de datos, y diseño de alto nivel.\\n\\nSe debe definir funcionalidades claves que harán brillar a LTI por encima de los competidores: aumentar la eficiencia para los departamentos de HR, mejorar la colaboración en tiempo real entre reclutadores y managers, automatizaciones.\\n\\nInvestiga cuáles pueden ser las claves del éxito y aplica a los puntos que se necesita a continuación:\\n\\n1. Descripción breve del software LTI, valor añadido y ventajas competitivas. Explicación de las funciones principales. Añadir un diagrama Lean Canvas para entender el modelo de negocio\\n2. Descripción de los 3 casos de uso principales, con el diagrama asociado a cada uno\\n3. Modelo de datos que cubra entidades, atributos (nombre y tipo) y relaciones\\n4. Diseño del sistema a alto nivel, tanto explicado como diagrama adjunto\\n5. Diagrama C4 que llegue en profundidad a uno de los componentes del sistema, el que prefieras\\n\\nToda la investigación y documentación incluyela en el archiv LTI-WC.md y tambien todos promts ocupados en el archivo prompts.md\\n\\nSi requieres más información me preguntas.\"",
+                "range": {
+                  "startLineNumber": 3,
+                  "startColumn": 1,
+                  "endLineNumber": 3,
+                  "endColumn": 1323
+                }
+              }
+            ],
+            [
+              {
+                "text": "2. \"Planteale como generalista y los diagramas de tipo PlantUML\"",
+                "range": {
+                  "startLineNumber": 4,
+                  "startColumn": 1,
+                  "endLineNumber": 4,
+                  "endColumn": 65
+                }
+              }
+            ],
+            [
+              {
+                "text": "3. \"puedes ser más descriptivo en cada uno de los puntos, es para poder entender cada uno de los puntos.\"",
+                "range": {
+                  "startLineNumber": 5,
+                  "startColumn": 1,
+                  "endLineNumber": 5,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "",
+                "range": {
+                  "startLineNumber": 6,
+                  "startColumn": 1,
+                  "endLineNumber": 6,
+                  "endColumn": 91
+                }
+              }
+            ],
+            [
+              {
+                "text": "# Se irán añadiendo los siguientes prompts a medida que se utilicen para la documentación.",
+                "range": {
+                  "startLineNumber": 7,
+                  "startColumn": 1,
+                  "endLineNumber": 7,
+                  "endColumn": 1
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n",
+                "range": {
+                  "startLineNumber": 8,
+                  "startColumn": 1,
+                  "endLineNumber": 8,
+                  "endColumn": 1
+                }
+              }
+            ],
+            []
+          ],
+          "done": true
+        },
+        {
+          "value": "Ya he añadido el prompt utilizado para solicitar mayor nivel de detalle en la documentación al archivo `prompts.md`. Así, el registro de todos los prompts empleados se mantiene actualizado y completo.\n\n¿Quieres que registre algún otro prompt o necesitas seguir documentando nuevas solicitudes?",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/OneD/BI/OneDrive - Farmaenlace/Datos Portatil/Documentos/V220/Curso/2025/Lidr/AI4Devs/Ejercicios/4/AI4Devs-design-1-202506/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "responseId": "response_e8a11097-d88e-4e0f-9806-1e3ce64a263b",
+      "result": {
+        "timings": {
+          "firstProgress": 6896,
+          "totalElapsed": 7434
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "renderedUserMessage": [
+            {
+              "type": 1,
+              "text": "<attachments>\n<attachment id=\"file:prompts.md\">\nUser's current visible code:\nExcerpt from prompts.md, lines 1 to 7:\n```markdown\n# Prompts utilizados para la documentación del sistema ATS LTI\r\n\r\n1. \"Quiero que seas un product manager donde se va a construir un sistema ATS (Applicant-Tracking System).\\n\\nSe necesita diseñar y documentar un sistema de software siguiendo las fases de investigación y análisis, casos de uso, modelado de datos, y diseño de alto nivel.\\n\\nSe debe definir funcionalidades claves que harán brillar a LTI por encima de los competidores: aumentar la eficiencia para los departamentos de HR, mejorar la colaboración en tiempo real entre reclutadores y managers, automatizaciones.\\n\\nInvestiga cuáles pueden ser las claves del éxito y aplica a los puntos que se necesita a continuación:\\n\\n1. Descripción breve del software LTI, valor añadido y ventajas competitivas. Explicación de las funciones principales. Añadir un diagrama Lean Canvas para entender el modelo de negocio\\n2. Descripción de los 3 casos de uso principales, con el diagrama asociado a cada uno\\n3. Modelo de datos que cubra entidades, atributos (nombre y tipo) y relaciones\\n4. Diseño del sistema a alto nivel, tanto explicado como diagrama adjunto\\n5. Diagrama C4 que llegue en profundidad a uno de los componentes del sistema, el que prefieras\\n\\nToda la investigación y documentación incluyela en el archiv LTI-WC.md y tambien todos promts ocupados en el archivo prompts.md\\n\\nSi requieres más información me preguntas.\"\r\n2. \"Planteale como generalista y los diagramas de tipo PlantUML\"\r\n\r\n# Se irán añadiendo los siguientes prompts a medida que se utilicen para la documentación.\n```\n</attachment>\n\n</attachments>\n<context>\nThe current date is 7 de julio de 2025.\n</context>\n<editorContext>\nThe user's current file is c:\\OneD\\BI\\OneDrive - Farmaenlace\\Datos Portatil\\Documentos\\V220\\Curso\\2025\\Lidr\\AI4Devs\\Ejercicios\\4\\AI4Devs-design-1-202506\\LTI-WC\\prompts.md. \n</editorContext>\n<reminder>\nYou are an agent - you must keep going until the user's query is completely resolved, before ending your turn and yielding back to the user. ONLY terminate your turn when you are sure that the problem is solved, or you absolutely cannot continue.\nYou take action when possible- the user is expecting YOU to take action and go to work for them. Don't ask unnecessary questions about the details if you can simply DO something useful instead.\nWhen using the insert_edit_into_file tool, avoid repeating existing code, instead use a line comment with \\`...existing code...\\` to represent regions of unchanged code.\n</reminder>\n<userRequest>\nte has olvidado de ir incluyendo los prompts utilizados en el archivo prompts.md (See <attachments> above for file contents. You may not need to search or read the file again.)\n</userRequest>\n"
+            },
+            {
+              "type": 3,
+              "cacheType": "ephemeral"
+            }
+          ],
+          "toolCallRounds": [
+            {
+              "response": "",
+              "toolCalls": [
+                {
+                  "name": "insert_edit_into_file",
+                  "arguments": "{\"code\":\"# Prompts utilizados para la documentación del sistema ATS LTI\\n\\n1. \\\"Quiero que seas un product manager donde se va a construir un sistema ATS (Applicant-Tracking System)...\\\"  \\n2. \\\"Planteale como generalista y los diagramas de tipo PlantUML\\\"  \\n3. \\\"puedes ser más descriptivo en cada uno de los puntos, es para poder entender cada uno de los puntos.\\\"\\n\\n# Se irán añadiendo los siguientes prompts a medida que se utilicen para la documentación.\\n\",\"explanation\":\"Agrego el prompt utilizado para solicitar mayor nivel de detalle en la documentación, manteniendo el registro actualizado.\",\"filePath\":\"c:\\\\OneD\\\\BI\\\\OneDrive - Farmaenlace\\\\Datos Portatil\\\\Documentos\\\\V220\\\\Curso\\\\2025\\\\Lidr\\\\AI4Devs\\\\Ejercicios\\\\4\\\\AI4Devs-design-1-202506\\\\LTI-WC\\\\prompts.md\"}",
+                  "id": "call_SrEdtMsXl8jZYxCzisohCnxY__vscode-1751894099539"
+                }
+              ],
+              "toolInputRetry": 0,
+              "id": "4cbdec6b-f347-4192-93e7-54a82091e5fa"
+            },
+            {
+              "response": "Ya he añadido el prompt utilizado para solicitar mayor nivel de detalle en la documentación al archivo `prompts.md`. Así, el registro de todos los prompts empleados se mantiene actualizado y completo.\n\n¿Quieres que registre algún otro prompt o necesitas seguir documentando nuevas solicitudes?",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "d7d10802-4702-4b8d-a359-7272d779b827"
+            }
+          ],
+          "toolCallResults": {
+            "call_SrEdtMsXl8jZYxCzisohCnxY__vscode-1751894099539": {
+              "$mid": 20,
+              "content": [
+                {
+                  "$mid": 22,
+                  "value": {
+                    "node": {
+                      "type": 1,
+                      "ctor": 2,
+                      "ctorName": "Zm",
+                      "children": [
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "The following files were successfully edited:",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "\n",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "c:\\OneD\\BI\\OneDrive - Farmaenlace\\Datos Portatil\\Documentos\\V220\\Curso\\2025\\Lidr\\AI4Devs\\Ejercicios\\4\\AI4Devs-design-1-202506\\LTI-WC\\prompts.md",
+                          "lineBreakBefore": false
+                        },
+                        {
+                          "type": 2,
+                          "priority": 9007199254740991,
+                          "text": "\n",
+                          "lineBreakBefore": false
+                        }
+                      ],
+                      "props": {},
+                      "references": []
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "modelMessageId": "6b3e7985-30d9-48c3-b3ea-9a65f64581a3",
+          "responseId": "b60ff0fe-2ff6-4d71-b3f7-93fbb54011e6",
+          "sessionId": "66a37dc5-d80c-403e-a1bd-55b88d30097d",
+          "agentId": "github.copilot.editsAgent"
+        }
+      },
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.editsAgent",
+        "description": "Edición de archivos en el área de trabajo en modo agente",
+        "when": "config.chat.agent.enabled && !chatAgentModeDisallowed",
+        "metadata": {
+          "themeIcon": {
+            "id": "tools"
+          },
+          "hasFollowups": false,
+          "supportIssueReporting": false
+        },
+        "name": "agent",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "agent"
+        ],
+        "slashCommands": [
+          {
+            "name": "list"
+          }
+        ],
+        "disambiguation": []
+      },
+      "contentReferences": [],
+      "codeCitations": [],
+      "timestamp": 1751897604393,
+      "editedFileEvents": [
+        {
+          "eventKind": 1,
+          "uri": {
+            "$mid": 1,
+            "fsPath": "c:\\OneD\\BI\\OneDrive - Farmaenlace\\Datos Portatil\\Documentos\\V220\\Curso\\2025\\Lidr\\AI4Devs\\Ejercicios\\4\\AI4Devs-design-1-202506\\LTI-WC\\LTI-WC.md",
+            "_sep": 1,
+            "external": "file:///c%3A/OneD/BI/OneDrive%20-%20Farmaenlace/Datos%20Portatil/Documentos/V220/Curso/2025/Lidr/AI4Devs/Ejercicios/4/AI4Devs-design-1-202506/LTI-WC/LTI-WC.md",
+            "path": "/c:/OneD/BI/OneDrive - Farmaenlace/Datos Portatil/Documentos/V220/Curso/2025/Lidr/AI4Devs/Ejercicios/4/AI4Devs-design-1-202506/LTI-WC/LTI-WC.md",
+            "scheme": "file"
+          }
+        }
+      ]
+    }
+  ]
+}

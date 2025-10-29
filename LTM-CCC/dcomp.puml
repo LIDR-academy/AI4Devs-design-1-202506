@@ -1,0 +1,186 @@
+```plantuml
+@startuml
+
+' ATL — Clean Architecture (UML Component Diagram)
+' Render-ready for PyCharm PlantUML plugin
+
+skinparam componentStyle rectangle
+skinparam wrapWidth 220
+skinparam maxMessageSize 220
+left to right direction
+
+' ======================
+' LAYER: DOMAIN
+' ======================
+package "Domain" <<layer>> {
+  [Domain Entities\n(Persona, Candidatura, Puesto,\nEntrevista, Evaluación, ...) ] as D_Entities <<component>>
+  [Domain Services\n(Políticas, Reglas, Transiciones de Estado,\nScore de idoneidad)] as D_Services <<component>>
+}
+
+' ======================
+' LAYER: APPLICATION (USE CASES + PORTS)
+' ======================
+package "Application (Use Cases + Ports)" <<layer>> {
+  ' --- Use Cases del sistema ATL ---
+  [UC: Portal de Estado del Candidato\n(Transparencia + Notificaciones)] as UC_CX <<component>>
+  [UC: Programación de Entrevistas\n(Disponibilidad & Orquestación)] as UC_Schedule <<component>>
+  [UC: Alta de Contratación & Sync ATL→HRIS\n(Zero-Manual-Entry)] as UC_HRIS <<component>>
+  [UC: Espacio Colaborativo\n(Notas, @Menciones, Scorecards)] as UC_Collab <<component>>
+  [UC: Analítica & Cuellos de Botella] as UC_Analytics <<component>>
+  [UC: Ética & Cumplimiento\n(Selección Ciega, Retención/GDPR)] as UC_Compliance <<component>>
+
+  ' --- Outbound Ports (definidos por Application, implementados fuera) ---
+  interface INotificationPort
+  interface ICalendarPort
+  interface IHRISPort
+  interface IAIParsingPort
+  interface IAuthPort
+  interface IMetricsPort
+
+  ' --- Persistence Ports (Repos/Queries) ---
+  interface IPersonRepository
+  interface IApplicationRepository
+  interface IInterviewRepository
+  interface IScorecardRepository
+  interface IUserRepository
+
+  ' Dependencias hacia adentro (a Dominio)
+  UC_CX --> D_Entities
+  UC_CX --> D_Services
+  UC_Schedule --> D_Entities
+  UC_Schedule --> D_Services
+  UC_HRIS --> D_Entities
+  UC_HRIS --> D_Services
+  UC_Collab --> D_Entities
+  UC_Collab --> D_Services
+  UC_Analytics --> D_Entities
+  UC_Compliance --> D_Entities
+
+  ' Use Cases -> Puertos (salidas)
+  UC_CX ..> INotificationPort
+  UC_CX ..> IAIParsingPort
+  UC_CX ..> IApplicationRepository
+
+  UC_Schedule ..> ICalendarPort
+  UC_Schedule ..> IInterviewRepository
+  UC_Schedule ..> IUserRepository
+
+  UC_HRIS ..> IHRISPort
+  UC_HRIS ..> IApplicationRepository
+
+  UC_Collab ..> IApplicationRepository
+  UC_Collab ..> IUserRepository
+  UC_Collab ..> IAIParsingPort
+
+  UC_Analytics ..> IApplicationRepository
+  UC_Analytics ..> IMetricsPort
+
+  UC_Compliance ..> IAIParsingPort
+  UC_Compliance ..> IApplicationRepository
+}
+
+' ======================
+' LAYER: INTERFACE ADAPTERS (Controllers / Presenters / Gateways)
+' ======================
+package "Interface Adapters" <<layer>> {
+  [HTTP Controllers\n(REST / GraphQL)] as Ctrl_API <<component>>
+  [Web Controller\n(SSR / SPA BFF)] as Ctrl_Web <<component>>
+  [Presenters / ViewModels\n(Web/Mobile/CLI)] as Presenter <<component>>
+
+  [Repository Gateways\n(SQL/ORM Repos)] as GW_DB <<component>>
+  [Calendar Gateway\n(Google/Outlook)] as GW_Calendar <<component>>
+  [Notification Gateway\n(Email/SMS/WebPush)] as GW_Notify <<component>>
+  [HRIS Gateway\n(Workday/BambooHR/Factorial)] as GW_HRIS <<component>>
+  [AI Services Gateway\n(NLP Parsing / GenAI)] as GW_AI <<component>>
+  [Auth Gateway\n(OAuth2/OIDC)] as GW_Auth <<component>>
+  [Metrics/Telemetry Adapter] as GW_Metrics <<component>>
+
+  ' Controllers invocan casos de uso
+  Ctrl_API --> UC_CX
+  Ctrl_API --> UC_Schedule
+  Ctrl_API --> UC_HRIS
+  Ctrl_API --> UC_Collab
+  Ctrl_API --> UC_Analytics
+  Ctrl_API --> UC_Compliance
+
+  Ctrl_Web --> UC_CX
+  Ctrl_Web --> UC_Collab
+
+  ' Presenters conectan con controladores (adaptación de salida)
+  Presenter ..> Ctrl_Web
+  Presenter ..> Ctrl_API
+}
+
+' Gateways IMPLEMENTAN los puertos (realización)
+GW_Notify ..|> INotificationPort
+GW_Calendar ..|> ICalendarPort
+GW_HRIS ..|> IHRISPort
+GW_AI ..|> IAIParsingPort
+GW_Auth ..|> IAuthPort
+GW_Metrics ..|> IMetricsPort
+
+GW_DB ..|> IPersonRepository
+GW_DB ..|> IApplicationRepository
+GW_DB ..|> IInterviewRepository
+GW_DB ..|> IScorecardRepository
+GW_DB ..|> IUserRepository
+
+' ======================
+' LAYER: FRAMEWORKS & DRIVERS (Infra concreta)
+' ======================
+package "Frameworks & Drivers (Infra)" <<layer>> {
+  [Web Server / API Framework\n(FastAPI/Flask/Django)] as Srv_HTTP <<component>>
+  [Background Worker / Scheduler\n(Celery/RQ/APS)] as Srv_Worker <<component>>
+  [SQL Database\n(PostgreSQL/MySQL/SQLite)] as DB_SQL <<component>>
+  [Cache\n(Redis)] as Cache <<component>>
+  [Message Broker / Events\n(RabbitMQ/Kafka/SQS)] as Broker <<component>>
+  [Search / Vector Store\n(OpenSearch / PGVector)] as Search <<component>>
+  [Object Storage\n(S3/GCS/Azure Blob)] as Blob <<component>>
+  [Observability Stack\n(OpenTelemetry/Prometheus/Grafana)] as Obs <<component>>
+}
+
+' ======================
+' EXTERNAL SYSTEMS
+' ======================
+package "External Systems" <<external>> {
+  [Identity Provider\n(IdP OAuth2/OIDC)] as IdP <<component>>
+  [Calendars API\n(Google/Outlook)] as ExtCalendars <<component>>
+  [HRIS/Payroll APIs\n(Workday/BambooHR/Factorial)] as ExtHRIS <<component>>
+  [Email/SMS Providers\n(SendGrid/Twilio/...)] as ExtEmailSMS <<component>>
+  [AI Provider\n(NLP/GenAI)] as ExtAI <<component>>
+}
+
+' ======================
+' BINDINGS (Adapters -> Infra / External)
+' ======================
+Srv_HTTP --> Ctrl_API
+Srv_HTTP --> Ctrl_Web
+Srv_Worker --> UC_Schedule
+Srv_Worker --> UC_HRIS
+Srv_Worker --> UC_Analytics
+
+GW_DB --> DB_SQL
+Ctrl_API --> Cache
+Ctrl_API --> Broker
+Ctrl_API --> Search
+Blob -[hidden]-> GW_DB
+GW_Metrics --> Obs
+
+GW_Auth --> IdP
+GW_Calendar --> ExtCalendars
+GW_HRIS --> ExtHRIS
+GW_Notify --> ExtEmailSMS
+GW_AI --> ExtAI
+
+' ======================
+' NOTAS: Política de Dependencias (Clean Architecture)
+' ======================
+note right of UC_CX
+  Reglas clave:
+  1) Las dependencias apuntan hacia adentro (outer → inner).
+  2) Application define puertos; Interface Adapters los implementa.
+  3) Domain no conoce frameworks ni drivers.
+end note
+
+@enduml
+```

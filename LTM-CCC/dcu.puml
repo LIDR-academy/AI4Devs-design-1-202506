@@ -1,0 +1,23 @@
+```plantuml
+@startuml
+left to right direction
+actor Candidato as C
+actor Reclutador as R
+actor Manager as M
+actor Entrevistador as E
+rectangle "Nexus ATS" {
+  usecase "Portal de Candidato\nen Tiempo Real" as UC1
+  usecase "Programador de Entrevistas\nInteligente" as UC2
+  usecase "Sincronización HRIS\nZero-Manual-Entry" as UC2d
+  usecase "Espacio Colaborativo\nUnificado" as UC3
+}
+C --> UC1
+C --> UC2
+R --> UC2
+R --> UC2d
+R --> UC3
+M --> UC3
+E --> UC3
+@enduml
+```
+

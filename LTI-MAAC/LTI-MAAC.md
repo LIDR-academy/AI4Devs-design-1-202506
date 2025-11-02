@@ -46,6 +46,7 @@ Descripción breve: Muestra métricas clave (tiempo de contratación, tasa de co
 
 ## Diagrama Lean Canvas
 
+```mermaid
 graph TD
     A[Lean Canvas - LTS Applicant Tracking System]
 
@@ -58,7 +59,7 @@ graph TD
     A --> H[7. Estructura de Costos<br>- Infraestructura en la nube y desarrollo continuo<br>- Marketing y soporte técnico<br>- Integraciones de terceros y servicios AI]
     A --> I[8. Fuentes de Ingreso<br>- Suscripción mensual por usuario o empresa<br>- Add-ons premium como análisis avanzado y parsing inteligente<br>- Servicios de integración personalizados]
     A --> J[9. Ventaja Injusta<br>- Motor de analítica predictiva propio<br>- Integración flexible con ecosistemas de recursos humanos<br>- Experiencia de usuario centrada en el candidato]
-
+```
 
 
 

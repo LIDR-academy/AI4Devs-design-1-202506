@@ -1,0 +1,243 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// =====================================================
+// JOBS CONTEXT - Gestión de ofertas de trabajo
+// =====================================================
+
+model Company {
+  id          String   @id @default(cuid())
+  name        String   @unique
+  description String?
+  website     String?
+  industry    String?
+  size        String?
+  location    String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  jobs Job[]
+
+  @@map("companies")
+}
+
+model Job {
+  id                String     @id @default(cuid())
+  title             String
+  description       String
+  requirements      String   // JSON string for SQLite
+  responsibilities  String   // JSON string for SQLite
+  benefits          String?
+  location          String?
+  remoteWork        Boolean    @default(false)
+  salaryMin         Float?
+  salaryMax         Float?
+  salaryCurrency    String?    @default("EUR")
+  employmentType    String     // FULL_TIME, PART_TIME, CONTRACT, INTERNSHIP
+  experienceLevel   String     // JUNIOR, MID, SENIOR, LEAD
+  status            String     // DRAFT, ACTIVE, PAUSED, CLOSED
+  deadline          DateTime?
+  companyId         String
+  createdBy         String
+  createdAt         DateTime   @default(now())
+  updatedAt         DateTime   @updatedAt
+
+  company       Company       @relation(fields: [companyId], references: [id])
+  applications  Application[]
+
+  @@map("jobs")
+}
+
+// =====================================================
+// APPLICATIONS CONTEXT - Gestión de candidaturas
+// =====================================================
+
+model Application {
+  id              String    @id @default(cuid())
+  status          String    // PENDING, UNDER_REVIEW, REJECTED, SHORTLISTED
+  score           Int?      @default(0)
+  notes           String?
+  appliedAt       DateTime  @default(now())
+  lastStatusChange DateTime @default(now())
+  jobId           String
+  candidateId     String
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+
+  job             Job         @relation(fields: [jobId], references: [id])
+  candidate       Person      @relation(fields: [candidateId], references: [id])
+  screenings      Screening[]
+  interviews      Interview[]
+  offers          Offer[]
+
+  @@unique([jobId, candidateId])
+  @@map("applications")
+}
+
+// =====================================================
+// PEOPLE CONTEXT - Gestión de personas (candidatos/empleados)
+// =====================================================
+
+model Person {
+  id              String    @id @default(cuid())
+  email           String    @unique
+  firstName       String
+  lastName        String
+  phone           String?
+  linkedinUrl     String?
+  githubUrl       String?
+  portfolioUrl    String?
+  resumeUrl       String?
+  currentTitle    String?
+  currentCompany  String?
+  location        String?
+  skills          String?   // JSON string for SQLite 
+  experience      String?   // JSON string for SQLite
+  education       String?   // JSON string for SQLite
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+
+  applications    Application[]
+  screenings      Screening[]
+  interviews      Interview[]
+
+  @@map("people")
+}
+
+// =====================================================
+// SCREENING CONTEXT - Evaluación automática/manual
+// =====================================================
+
+model Screening {
+  id              String    @id @default(cuid())
+  type            String    // AUTOMATED, MANUAL, TECHNICAL_TEST, PHONE_SCREEN
+  status          String    // PENDING, IN_PROGRESS, COMPLETED, CANCELLED
+  score           Int?
+  feedback        String?
+  scheduledAt     DateTime?
+  completedAt     DateTime?
+  applicationId   String
+  candidateId     String
+  conductedBy     String?   // User ID who conducted the screening
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+
+  application     Application @relation(fields: [applicationId], references: [id])
+  candidate       Person      @relation(fields: [candidateId], references: [id])
+
+  @@map("screenings")
+}
+
+// =====================================================
+// INTERVIEWS CONTEXT - Gestión de entrevistas
+// =====================================================
+
+model Interview {
+  id              String    @id @default(cuid())
+  type            String    // TECHNICAL, HR, CULTURAL_FIT, FINAL
+  status          String    // SCHEDULED, IN_PROGRESS, COMPLETED, CANCELLED, RESCHEDULED
+  scheduledAt     DateTime
+  duration        Int       // Duration in minutes
+  location        String?   // Physical location or meeting link
+  interviewers    String?   // JSON string for SQLite (Array of interviewer IDs)
+  feedback        String?
+  score           Int?
+  notes           String?
+  applicationId   String
+  candidateId     String
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+
+  application     Application @relation(fields: [applicationId], references: [id])
+  candidate       Person      @relation(fields: [candidateId], references: [id])
+
+  @@map("interviews")
+}
+
+// =====================================================
+// OFFERS & HIRING CONTEXT - Ofertas y contratación
+// =====================================================
+
+model Offer {
+  id              String    @id @default(cuid())
+  status          String    // DRAFT, SENT, ACCEPTED, REJECTED, WITHDRAWN, EXPIRED
+  salary          Float
+  currency        String    @default("EUR")
+  benefits        String?
+  startDate       DateTime?
+  deadline        DateTime?
+  terms           String?
+  sentAt          DateTime?
+  respondedAt     DateTime?
+  applicationId   String
+  createdBy       String
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+
+  application     Application @relation(fields: [applicationId], references: [id])
+
+  @@map("offers")
+}
+
+// =====================================================
+// NOTIFICATIONS CONTEXT - Sistema de notificaciones
+// =====================================================
+
+model Notification {
+  id              String    @id @default(cuid())
+  type            String    // EMAIL, SMS, IN_APP, WEBHOOK
+  status          String    // PENDING, SENT, DELIVERED, FAILED
+  recipient       String    // Email, phone, or user ID
+  subject         String?
+  message         String
+  data            String?   // JSON string for SQLite
+  scheduledAt     DateTime?
+  sentAt          DateTime?
+  deliveredAt     DateTime?
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+
+  @@map("notifications")
+}
+
+// =====================================================
+// ANALYTICS CONTEXT - Métricas y análisis
+// =====================================================
+
+model Analytics {
+  id              String    @id @default(cuid())
+  entity          String    // job, application, interview, etc.
+  entityId        String
+  metric          String    // views, applications, conversion_rate, etc.
+  value           Float
+  timestamp       DateTime  @default(now())
+  metadata        String?   // JSON string for SQLite
+
+  @@map("analytics")
+}
+
+// =====================================================
+// AUDIT LOG - Trazabilidad de eventos
+// =====================================================
+
+model AuditLog {
+  id              String    @id @default(cuid())
+  entity          String
+  entityId        String
+  action          String    // CREATE, UPDATE, DELETE
+  userId          String?
+  changes         String?   // JSON string for SQLite (Before/after values)
+  metadata        String?   // JSON string for SQLite
+  timestamp       DateTime  @default(now())
+
+  @@map("audit_logs")
+}

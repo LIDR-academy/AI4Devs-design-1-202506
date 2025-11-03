@@ -1,0 +1,11 @@
+export declare const generateId: () => string;
+export declare const generateCorrelationId: () => string;
+export declare const sleep: (ms: number) => Promise<void>;
+export declare const formatDate: (date: Date) => string;
+export declare const formatDateTime: (date: Date) => string;
+export declare const isValidUUID: (uuid: string) => boolean;
+export declare const truncateString: (str: string, length: number) => string;
+export declare const camelToKebab: (str: string) => string;
+export declare const kebabToCamel: (str: string) => string;
+export declare const omit: <T, K extends keyof T>(obj: T, keys: K[]) => Omit<T, K>;
+export declare const pick: <T extends object, K extends keyof T>(obj: T, keys: K[]) => Pick<T, K>;
